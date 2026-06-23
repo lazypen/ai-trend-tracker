@@ -1,9 +1,295 @@
-// AI Trend Tracker — auto-generated 2026-06-22 16:10:52
+// AI Trend Tracker — auto-generated 2026-06-23 08:56:10
 // DO NOT edit manually — re-run fetch_ai_news.py to refresh
 const ARTICLES_DATA = {
-  "last_updated": "2026-06-22T16:10:52.534689+00:00",
-  "total": 145,
+  "last_updated": "2026-06-23T08:56:10.111818+00:00",
+  "total": 168,
   "articles": [
+    {
+      "id": "65171448dd1f",
+      "title": "AI Built a Nuke and Still Lost",
+      "url": "https://www.lwilko.com/blog/i-gave-an-ai-a-civilization",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T08:16:45+00:00",
+      "summary": "⬆ 9 points · 0 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "25c535f50064",
+      "title": "How sad should I be about ChatGPT? (2022)",
+      "url": "https://robertheaton.com/chatgpt/",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T07:52:03+00:00",
+      "summary": "⬆ 4 points · 0 comments on Hacker News",
+      "category": "Models & Research",
+      "color": "#ff6600"
+    },
+    {
+      "id": "deedb0177c68",
+      "title": "The new HTTP QUERY method explained",
+      "url": "https://kreya.app/blog/new-http-query-method-explained/",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T06:05:37+00:00",
+      "summary": "⬆ 64 points · 30 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "de8964e17252",
+      "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+      "url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+      "source": "NVIDIA",
+      "source_type": "company",
+      "published": "2026-06-23T06:00:09+00:00",
+      "summary": "Telecom operators have seen remarkable returns from using generative AI to automate network management, customer care and back-office operations. Most of that impact has been task‑based: automation that speeds up predetermined steps while people manually correlate insights and...",
+      "category": "Real-world AI Use",
+      "color": "#76b900"
+    },
+    {
+      "id": "cab23dbbd064",
+      "title": "OpenAI DayBreak – GPT-5.5-Cyber",
+      "url": "https://openai.com/index/daybreak-securing-the-world/",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T01:36:08+00:00",
+      "summary": "⬆ 84 points · 40 comments on Hacker News",
+      "category": "Models & Research",
+      "color": "#ff6600"
+    },
+    {
+      "id": "44208f99c618",
+      "title": "The running list: major tech layoffs in 2026 where employers cited AI",
+      "url": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-23T01:27:55+00:00",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "category": "Big Tech News",
+      "color": "#0d9488"
+    },
+    {
+      "id": "d4b0a5576fde",
+      "title": "In praise of memcached",
+      "url": "https://jchri.st/blog/in-praise-of-memcached/",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T01:15:05+00:00",
+      "summary": "⬆ 141 points · 55 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "8bdf35b5ee90",
+      "title": "OpenAI launches new initiative to help find and patch open source bugs",
+      "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-23T00:11:31+00:00",
+      "summary": "OpenAI is using AI to help the open source community better protect itself.",
+      "category": "Big Tech News",
+      "color": "#0d9488"
+    },
+    {
+      "id": "350becd7dc0b",
+      "title": "How Omio is building the future of conversational travel",
+      "url": "https://openai.com/index/omio",
+      "source": "OpenAI",
+      "source_type": "company",
+      "published": "2026-06-23T00:00:00+00:00",
+      "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "category": "Big Tech News",
+      "color": "#10a37f"
+    },
+    {
+      "id": "e9e69e179378",
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "source": "Hugging Face",
+      "source_type": "company",
+      "published": "2026-06-23T00:00:00+00:00",
+      "summary": "",
+      "category": "Tools & Stack",
+      "color": "#e9a800"
+    },
+    {
+      "id": "d8601afd6862",
+      "title": "Meta pauses AI training program tracking employee keystrokes after internal leak",
+      "url": "https://www.businessinsider.com/meta-ai-training-data-leak-exposed-employee-activity-across-company-2026-6",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-22T21:43:22+00:00",
+      "summary": "⬆ 85 points · 21 comments on Hacker News",
+      "category": "Models & Research",
+      "color": "#ff6600"
+    },
+    {
+      "id": "c8e3f008a167",
+      "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak",
+      "url": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
+      "source": "Wired",
+      "source_type": "news",
+      "published": "2026-06-22T21:08:09+00:00",
+      "summary": "The move comes after the company left potentially sensitive data from the initiative exposed internally.",
+      "category": "Big Tech News",
+      "color": "#6b7280"
+    },
+    {
+      "id": "f811b25fbf9d",
+      "title": "The AI world is getting ‘loopy’",
+      "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-22T20:53:11+00:00",
+      "summary": "The loop takes agentic AI a step further by authorizing a swarm of agents to work continuously in the background, endlessly.",
+      "category": "Big Tech News",
+      "color": "#0d9488"
+    },
+    {
+      "id": "b371e572d377",
+      "title": "Meta Exposed Data Internally From Its Controversial Employee-Tracking Program",
+      "url": "https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/",
+      "source": "Wired",
+      "source_type": "news",
+      "published": "2026-06-22T20:28:53+00:00",
+      "summary": "Employees had previously raised concerns about the initiative, which involves collecting workers’ keystroke data to train AI models.",
+      "category": "Models & Research",
+      "color": "#6b7280"
+    },
+    {
+      "id": "a9ba7814c8ed",
+      "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-22T20:13:58+00:00",
+      "summary": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.",
+      "category": "Big Tech News",
+      "color": "#0d9488"
+    },
+    {
+      "id": "e14ed19e3b39",
+      "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
+      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-22T20:08:15+00:00",
+      "summary": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants.",
+      "category": "Big Tech News",
+      "color": "#0d9488"
+    },
+    {
+      "id": "0bbae9c5d741",
+      "title": "Following user outcry, AMD reinstates memory encryption in consumer CPUs",
+      "url": "https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "published": "2026-06-22T19:16:52+00:00",
+      "summary": "Critics saw the move as an underhanded way to steer them toward more costly chips.",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "1a31120402af",
+      "title": "Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040",
+      "url": "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-22T19:06:48+00:00",
+      "summary": "⬆ 466 points · 314 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "2eba6f3aeae1",
+      "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-22T18:49:44+00:00",
+      "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
+      "category": "Big Tech News",
+      "color": "#0d9488"
+    },
+    {
+      "id": "e5321e5c15e4",
+      "title": "Three things to watch amid Anthropic’s latest feud with the government",
+      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-06-22T18:00:00+00:00",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said ...",
+      "category": "Policy & Safety",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "2854b398bd05",
+      "title": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments/",
+      "source": "AWS ML",
+      "source_type": "company",
+      "published": "2026-06-22T17:53:40+00:00",
+      "summary": "In this post, you will learn how Ampersend built a pay-per-intelligence routing layer on top of Amazon Bedrock AgentCore Payments. AI agents autonomously route tasks to the most effective model, pay per request, and operate within spending budgets. You will also see how the tw...",
+      "category": "Models & Research",
+      "color": "#ff9900"
+    },
+    {
+      "id": "3bc52c088383",
+      "title": "Amazon is testing Alexa+ in India with Hindi support",
+      "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-22T17:31:29+00:00",
+      "summary": "Amazon is planning to increase the footprint of its new conversational AI assistant Alexa+ to India and is inviting users in the country to test out a Hindi-language version.",
+      "category": "Big Tech News",
+      "color": "#0d9488"
+    },
+    {
+      "id": "33bf1a3e1996",
+      "title": "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic’s Mythos",
+      "url": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
+      "source": "Wired",
+      "source_type": "news",
+      "published": "2026-06-22T17:00:00+00:00",
+      "summary": "Amid concerns about AI models’ cybersecurity capabilities, OpenAI revealed an improved version of GPT-5.5-Cyber and its “Patch the Planet” initiative to fix open-source software bugs.",
+      "category": "Models & Research",
+      "color": "#6b7280"
+    },
+    {
+      "id": "f7ef68bb6a12",
+      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-22T16:51:29+00:00",
+      "summary": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
+      "category": "Tools & Stack",
+      "color": "#0d9488"
+    },
+    {
+      "id": "ffd939d59f3a",
+      "title": "Embed the world: Multimodal AI for searchable aerial imagery at scale",
+      "url": "https://aws.amazon.com/blogs/machine-learning/embed-the-world-multimodal-ai-for-searchable-aerial-imagery-at-scale/",
+      "source": "AWS ML",
+      "source_type": "company",
+      "published": "2026-06-22T16:32:15+00:00",
+      "summary": "In this post, we walk through the problem space, our architecture on Amazon Bedrock and Amazon OpenSearch Serverless, the evaluation methodology we built on OpenStreetMap ground truth, four experiments that compared embedding models, fusion strategies, captioning, and search m...",
+      "category": "Models & Research",
+      "color": "#ff9900"
+    },
+    {
+      "id": "bc13b5a10356",
+      "title": "Running ComfyUI workflows on Amazon SageMaker AI processing jobs",
+      "url": "https://aws.amazon.com/blogs/machine-learning/running-comfyui-workflows-on-amazon-sagemaker-ai-processing-jobs/",
+      "source": "AWS ML",
+      "source_type": "company",
+      "published": "2026-06-22T16:28:46+00:00",
+      "summary": "In this post, we walk you through how to deploy ComfyUI workflows on Amazon SageMaker AI processing jobs to generate hundreds of high-quality images in a single batch. You learn how to set up the infrastructure using AWS Cloud Development Kit (AWS CDK), configure GPU-accelerat...",
+      "category": "Real-world AI Use",
+      "color": "#ff9900"
+    },
     {
       "id": "f857e1a7ef48",
       "title": "I built Ponytrail, a local audit trail for AI coding-agent edits",
@@ -28,12 +314,12 @@ const ARTICLES_DATA = {
     },
     {
       "id": "d509f232d163",
-      "title": "Claude Code's \"extended thinking\" is a summary- not authentic thinking",
+      "title": "The text in Claude Code’s “Extended Thinking” output",
       "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
       "source": "Hacker News",
       "source_type": "community",
       "published": "2026-06-22T14:22:46+00:00",
-      "summary": "⬆ 96 points · 72 comments on Hacker News",
+      "summary": "⬆ 301 points · 211 comments on Hacker News",
       "category": "Models & Research",
       "color": "#ff6600"
     },
@@ -44,7 +330,7 @@ const ARTICLES_DATA = {
       "source": "TechCrunch",
       "source_type": "news",
       "published": "2026-06-22T14:00:00+00:00",
-      "summary": "Save up to $190 on your pass to TechCrunch Founder Summit 2026 by June 26, 11:59 p.m. PT. Designed for founders first on November 4 in Boston. Register here.",
+      "summary": "Save up to $190 on your pass to TechCrunch Founder Summit 2026 by June 26, 11:59 p.m. PT. Designed for founders first on November 4 in Boston. Register today.",
       "category": "Big Tech News",
       "color": "#0d9488"
     },
@@ -66,7 +352,7 @@ const ARTICLES_DATA = {
       "source": "Hacker News",
       "source_type": "community",
       "published": "2026-06-22T13:53:02+00:00",
-      "summary": "⬆ 59 points · 9 comments on Hacker News",
+      "summary": "⬆ 288 points · 69 comments on Hacker News",
       "category": "Models & Research",
       "color": "#ff6600"
     },
@@ -104,17 +390,6 @@ const ARTICLES_DATA = {
       "color": "#76b900"
     },
     {
-      "id": "2ace5aa8e79c",
-      "title": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
-      "url": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
-      "source": "NVIDIA",
-      "source_type": "company",
-      "published": "2026-06-22T13:00:20+00:00",
-      "summary": "Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing G...",
-      "category": "Big Tech News",
-      "color": "#76b900"
-    },
-    {
       "id": "e98fab613985",
       "title": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
       "url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
@@ -123,6 +398,17 @@ const ARTICLES_DATA = {
       "published": "2026-06-22T13:00:20+00:00",
       "summary": "At the ISC conference running in Hamburg this week, NVIDIA is introducing new software that speeds AI for science, from chemistry and materials discovery to the search for dark matter. The NVIDIA DAQIRI library and new NVIDIA ALCHEMI NIM microservices — as well as the NVIDIA c...",
       "category": "Tools & Stack",
+      "color": "#76b900"
+    },
+    {
+      "id": "2ace5aa8e79c",
+      "title": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
+      "url": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
+      "source": "NVIDIA",
+      "source_type": "company",
+      "published": "2026-06-22T13:00:20+00:00",
+      "summary": "Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing G...",
+      "category": "Big Tech News",
       "color": "#76b900"
     },
     {
@@ -146,6 +432,28 @@ const ARTICLES_DATA = {
       "summary": "This is todays edition of The Download, our weekday newsletter that provides a daily dose of whats going on in the world of technology. Inside the world’s deepest and longest subsea road tunnel —Niall Firth I’m currently around 1,000 feet beneath the North Sea, in a dark, dank...",
       "category": "Big Tech News",
       "color": "#b91c1c"
+    },
+    {
+      "id": "5d9de7a5a94a",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "OpenAI",
+      "source_type": "company",
+      "published": "2026-06-22T10:00:00+00:00",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "category": "Models & Research",
+      "color": "#10a37f"
+    },
+    {
+      "id": "f601b26b225b",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "source": "OpenAI",
+      "source_type": "company",
+      "published": "2026-06-22T10:00:00+00:00",
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "category": "Tools & Stack",
+      "color": "#10a37f"
     },
     {
       "id": "bb053c7468c4",
@@ -203,6 +511,28 @@ const ARTICLES_DATA = {
       "color": "#ff6600"
     },
     {
+      "id": "5edb7201b0cb",
+      "title": "Codex-maxxing for long-running work",
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "source": "OpenAI",
+      "source_type": "company",
+      "published": "2026-06-22T00:00:00+00:00",
+      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+      "category": "Big Tech News",
+      "color": "#10a37f"
+    },
+    {
+      "id": "4af30edd2b4f",
+      "title": "We got local models to triage the OpenClaw repo for FREE!*",
+      "url": "https://huggingface.co/blog/local-models-pr-triage",
+      "source": "Hugging Face",
+      "source_type": "company",
+      "published": "2026-06-22T00:00:00+00:00",
+      "summary": "",
+      "category": "Models & Research",
+      "color": "#e9a800"
+    },
+    {
       "id": "663d872622a3",
       "title": "Samsung Electronics brings ChatGPT and Codex to employees",
       "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
@@ -231,7 +561,7 @@ const ARTICLES_DATA = {
       "source": "Hacker News",
       "source_type": "community",
       "published": "2026-06-21T21:29:43+00:00",
-      "summary": "⬆ 494 points · 166 comments on Hacker News",
+      "summary": "⬆ 523 points · 180 comments on Hacker News",
       "category": "Models & Research",
       "color": "#ff6600"
     },
@@ -300,6 +630,17 @@ const ARTICLES_DATA = {
       "summary": "Sure, anyone can use OpenAI’s chatbot. But with smart engineering, you can get way more interesting results.",
       "category": "Models & Research",
       "color": "#6b7280"
+    },
+    {
+      "id": "940826b703b4",
+      "title": "Polymarket has flooded social media with deceptive videos by paid creators",
+      "url": "https://www.wsj.com/business/media/polymarket-social-media-bets-prediction-market-441cdeb5?st=HhTZY2",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-21T01:12:21+00:00",
+      "summary": "⬆ 269 points · 204 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
     },
     {
       "id": "7ddc78b7ede2",
@@ -495,7 +836,7 @@ const ARTICLES_DATA = {
       "source": "Hacker News",
       "source_type": "community",
       "published": "2026-06-19T15:54:23+00:00",
-      "summary": "⬆ 168 points · 72 comments on Hacker News",
+      "summary": "⬆ 221 points · 96 comments on Hacker News",
       "category": "Big Tech News",
       "color": "#ff6600"
     },
@@ -1259,17 +1600,6 @@ const ARTICLES_DATA = {
       "color": "#10a37f"
     },
     {
-      "id": "c0d1dc402103",
-      "title": "Introducing Gemma 4 models on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-gemma-4-models-on-amazon-bedrock/",
-      "source": "AWS ML",
-      "source_type": "company",
-      "published": "2026-06-15T20:24:15+00:00",
-      "summary": "Today, we are announcing the availability of the Gemma 4 family on Amazon Bedrock. Built by Google DeepMind and released under the Apache 2.0 license, Gemma 4 is a family of open-weight models designed with a focus on intelligence-per-parameter across a broad range of deployme...",
-      "category": "Models & Research",
-      "color": "#ff9900"
-    },
-    {
       "id": "67377d6541c6",
       "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
       "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
@@ -1314,28 +1644,6 @@ const ARTICLES_DATA = {
       "color": "#ff6600"
     },
     {
-      "id": "31e268b2c07a",
-      "title": "New OpenAI Academy courses for the next era of work",
-      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "source": "OpenAI",
-      "source_type": "company",
-      "published": "2026-06-12T10:00:00+00:00",
-      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-      "category": "Real-world AI Use",
-      "color": "#10a37f"
-    },
-    {
-      "id": "e5e9bd931104",
-      "title": "How Preply combines AI and human tutors to personalize learning",
-      "url": "https://openai.com/index/preply",
-      "source": "OpenAI",
-      "source_type": "company",
-      "published": "2026-06-12T00:00:00+00:00",
-      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
-      "category": "Big Tech News",
-      "color": "#10a37f"
-    },
-    {
       "id": "a004c2b18314",
       "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
@@ -1345,28 +1653,6 @@ const ARTICLES_DATA = {
       "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
       "category": "Funding & Business",
       "color": "#4285f4"
-    },
-    {
-      "id": "8926e37d73b8",
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "url": "https://openai.com/index/bbva",
-      "source": "OpenAI",
-      "source_type": "company",
-      "published": "2026-06-11T00:00:00+00:00",
-      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "category": "Models & Research",
-      "color": "#10a37f"
-    },
-    {
-      "id": "f5fdb80fa91a",
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "source": "OpenAI",
-      "source_type": "company",
-      "published": "2026-06-11T00:00:00+00:00",
-      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-      "category": "Big Tech News",
-      "color": "#10a37f"
     },
     {
       "id": "9a812e42d024",
@@ -1380,17 +1666,6 @@ const ARTICLES_DATA = {
       "color": "#e9a800"
     },
     {
-      "id": "7d1f3e342dc6",
-      "title": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed",
-      "url": "https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "published": "2026-06-09T20:56:52+00:00",
-      "summary": "A separate zero-day also disclosed by Nightmare Eclipse appears to be patched as well.",
-      "category": "Big Tech News",
-      "color": "#ff6600"
-    },
-    {
       "id": "6d8d3867b1f2",
       "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
@@ -1399,28 +1674,6 @@ const ARTICLES_DATA = {
       "published": "2026-06-09T10:46:19+00:00",
       "summary": "",
       "category": "Big Tech News",
-      "color": "#e9a800"
-    },
-    {
-      "id": "eb3e2d9f4685",
-      "title": "Migrating Your GitHub CI to Hugging Face Jobs",
-      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
-      "source": "Hugging Face",
-      "source_type": "company",
-      "published": "2026-06-09T00:00:00+00:00",
-      "summary": "",
-      "category": "Big Tech News",
-      "color": "#e9a800"
-    },
-    {
-      "id": "4cd526a0df04",
-      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
-      "url": "https://huggingface.co/blog/openenv-agentic-rl",
-      "source": "Hugging Face",
-      "source_type": "company",
-      "published": "2026-06-08T00:00:00+00:00",
-      "summary": "",
-      "category": "Tools & Stack",
       "color": "#e9a800"
     },
     {
