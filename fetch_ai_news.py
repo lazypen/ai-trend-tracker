@@ -50,21 +50,24 @@ HN_MAX = 12                 # Max HN articles to keep
 REQUEST_TIMEOUT = 15        # HTTP timeout in seconds
 
 RSS_FEEDS = [
-    # ── Company / Lab Blogs ─────────────────────────────────────────────────
-    {"url": "https://openai.com/blog/rss.xml",                              "source": "OpenAI",          "type": "company"},
-    {"url": "https://www.anthropic.com/rss.xml",                            "source": "Anthropic",       "type": "company"},
+    # ── Company / Lab Blogs (verified working) ──────────────────────────────
+    {"url": "https://openai.com/news/rss.xml",                              "source": "OpenAI",          "type": "company"},
     {"url": "https://blog.google/technology/ai/rss/",                       "source": "Google AI",       "type": "company"},
-    {"url": "https://deepmind.google/discover/blog/rss.xml",                "source": "Google DeepMind","type": "company"},
-    {"url": "https://ai.meta.com/blog/feed/",                               "source": "Meta AI",         "type": "company"},
-    {"url": "https://blogs.microsoft.com/ai/feed/",                         "source": "Microsoft AI",    "type": "company"},
-    {"url": "https://blogs.nvidia.com/feed/",                               "source": "NVIDIA",          "type": "company"},
+    {"url": "https://deepmind.google/blog/rss.xml",                         "source": "Google DeepMind", "type": "company"},
+    {"url": "https://engineering.fb.com/feed/",                             "source": "Meta AI",         "type": "company"},
     {"url": "https://aws.amazon.com/blogs/machine-learning/feed/",          "source": "AWS ML",          "type": "company"},
     {"url": "https://huggingface.co/blog/feed.xml",                         "source": "Hugging Face",    "type": "company"},
-    {"url": "https://research.apple.com/rss/news.rss",                      "source": "Apple Research",  "type": "company"},
+    # ── Google News feeds (for labs without public RSS) ──────────────────────
+    {"url": "https://news.google.com/rss/search?q=anthropic+claude&hl=en-US&gl=US&ceid=US:en",  "source": "Anthropic",   "type": "company"},
+    {"url": "https://news.google.com/rss/search?q=xAI+grok+llm&hl=en-US&gl=US&ceid=US:en",     "source": "xAI / Grok",  "type": "company"},
+    {"url": "https://news.google.com/rss/search?q=deepseek+ai+model&hl=en-US&gl=US&ceid=US:en", "source": "DeepSeek",    "type": "company"},
+    {"url": "https://news.google.com/rss/search?q=mistral+ai+model&hl=en-US&gl=US&ceid=US:en",  "source": "Mistral AI",  "type": "company"},
+    {"url": "https://news.google.com/rss/search?q=google+gemini+AI&hl=en-US&gl=US&ceid=US:en",  "source": "Gemini News", "type": "company"},
+    {"url": "https://news.google.com/rss/search?q=openai+chatgpt&hl=en-US&gl=US&ceid=US:en",    "source": "ChatGPT News","type": "company"},
     # ── Tech News ───────────────────────────────────────────────────────────
     {"url": "https://techcrunch.com/category/artificial-intelligence/feed/","source": "TechCrunch",      "type": "news"},
     {"url": "https://venturebeat.com/category/ai/feed/",                    "source": "VentureBeat",     "type": "news"},
-    {"url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml","source": "The Verge",  "type": "news"},
+    {"url": "https://www.theverge.com/rss/index.xml",                       "source": "The Verge",       "type": "news"},
     {"url": "https://www.wired.com/feed/tag/ai/latest/rss",                 "source": "Wired",           "type": "news"},
     {"url": "https://feeds.arstechnica.com/arstechnica/technology-lab",     "source": "Ars Technica",    "type": "news"},
     {"url": "https://www.technologyreview.com/feed/",                       "source": "MIT Tech Review", "type": "news"},
@@ -81,6 +84,13 @@ SOURCE_COLORS = {
     "AWS ML":           "#ff9900",
     "Hugging Face":     "#e9a800",
     "Apple Research":   "#555555",
+    "xAI / Grok":       "#1a1a1a",
+    "DeepSeek":         "#4f46e5",
+    "Mistral AI":       "#f97316",
+    "Gemini News":      "#4285f4",
+    "ChatGPT News":     "#10a37f",
+    "Cohere":           "#0ea5e9",
+    "Perplexity":       "#20b2aa",
     "TechCrunch":       "#0d9488",
     "VentureBeat":      "#7c3aed",
     "The Verge":        "#e11d48",
@@ -92,16 +102,35 @@ SOURCE_COLORS = {
 
 CATEGORIES = {
     "Models & Research": [
-        "gpt", "llm", "model", "training", "benchmark", "gemini", "claude", "mistral",
-        "llama", "diffusion", "transformer", "parameter", "fine-tun", "pretrain",
+        # model families
+        "gpt", "chatgpt", "llm", "model", "training", "benchmark",
+        "gemini", "gemma", "claude", "fable", "mythos", "opus", "sonnet", "haiku",
+        "mistral", "mixtral", "codestral",
+        "llama", "llama 3", "llama 4",
+        "deepseek", "deepseek-r", "deepseek-v",
+        "grok", "grok-", "xai",
+        "phi-", "phi 4", "copilot",
+        "perplexity", "sonar",
+        "diffusion", "transformer", "parameter", "fine-tun", "pretrain",
         "multimodal", "vision model", "language model", "reasoning model", "foundation model",
-        "o1", "o3", "grok", "sora", "dall-e", "stable diffusion", "midjourney",
+        "o1", "o3", "o4", "sora", "dall-e", "stable diffusion", "midjourney",
+        "agentic", "agent framework", "computer use",
     ],
     "Big Tech News": [
-        "openai announces", "google announces", "microsoft launches", "meta releases",
-        "nvidia unveils", "apple introduces", "amazon launches", "anthropic releases",
-        "openai launches", "google deepmind", "sam altman", "sundar pichai",
-        "satya nadella", "mark zuckerberg", "jensen huang",
+        "openai announces", "openai launches", "openai releases",
+        "google announces", "google launches",
+        "microsoft launches", "microsoft releases",
+        "meta releases", "meta launches",
+        "nvidia unveils", "nvidia launches",
+        "apple introduces", "apple launches",
+        "amazon launches", "amazon releases",
+        "anthropic releases", "anthropic launches", "anthropic announces",
+        "deepseek releases", "deepseek launches",
+        "xai releases", "xai launches",
+        "mistral releases", "mistral launches",
+        "google deepmind",
+        "sam altman", "sundar pichai", "satya nadella",
+        "mark zuckerberg", "jensen huang", "dario amodei",
     ],
     "Real-world AI Use": [
         "deploy", "production", "enterprise", "healthcare", "hospital", "clinic",
@@ -134,6 +163,13 @@ HN_AI_KEYWORDS = [
     "artificial intelligence", "stable diffusion", "mistral", "llama",
     "robotics", "language model", "deep learning", "agi", "transformer",
     "hugging face", "midjourney", "sora", "copilot",
+    # additional agents & labs
+    "deepseek", "grok", "xai", "x.ai", "perplexity",
+    "mistral", "mixtral", "cohere",
+    "fable", "opus", "sonnet", "claude 4",
+    "gemma", "phi-", "qwen",
+    "agentic", "agent", "mcp", "computer use",
+    "o3", "o4", "reasoning model",
 ]
 
 # ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -192,7 +228,11 @@ def load_existing() -> dict:
 def fetch_rss(feed_cfg: dict) -> list:
     articles = []
     try:
-        feed = feedparser.parse(feed_cfg["url"])
+        resp = requests.get(
+            feed_cfg["url"], timeout=REQUEST_TIMEOUT,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; AITrendTracker/1.0)"}
+        )
+        feed = feedparser.parse(resp.content)
         for entry in feed.entries[:MAX_PER_FEED]:
             url = entry.get("link", "").strip()
             if not url:
