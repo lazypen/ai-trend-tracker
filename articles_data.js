@@ -1,9 +1,394 @@
-// AI Trend Tracker — auto-generated 2026-06-23 08:56:10
+// AI Trend Tracker — auto-generated 2026-06-24 08:51:24
 // DO NOT edit manually — re-run fetch_ai_news.py to refresh
 const ARTICLES_DATA = {
-  "last_updated": "2026-06-23T08:56:10.111818+00:00",
-  "total": 168,
+  "last_updated": "2026-06-24T08:51:24.893451+00:00",
+  "total": 188,
   "articles": [
+    {
+      "id": "05c25aefe5ad",
+      "title": "US AI stock sell-off shakes markets from Wall Street to Asia",
+      "url": "https://www.theguardian.com/business/2026/jun/23/ai-stocks-sell-off-us-markets",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-24T03:36:50+00:00",
+      "summary": "⬆ 41 points · 19 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "3b011618a4b8",
+      "title": "DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers",
+      "url": "https://github.com/End2End-Diffusion/diffusion-bench",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-24T02:12:31+00:00",
+      "summary": "⬆ 33 points · 1 comments on Hacker News",
+      "category": "Models & Research",
+      "color": "#ff6600"
+    },
+    {
+      "id": "87e972a2730e",
+      "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
+      "url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
+      "source": "NVIDIA",
+      "source_type": "company",
+      "published": "2026-06-24T00:05:37+00:00",
+      "summary": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest work with Amazon Web Services (AWS) addresses each of those...",
+      "category": "Real-world AI Use",
+      "color": "#76b900"
+    },
+    {
+      "id": "41e29831de85",
+      "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
+      "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-23T23:30:00+00:00",
+      "summary": "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.",
+      "category": "Funding & Business",
+      "color": "#0d9488"
+    },
+    {
+      "id": "f7f8b49c4475",
+      "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
+      "url": "https://arstechnica.com/information-technology/2026/06/executive-order-bumps-up-deadline-to-move-off-quantum-vulnerable-crypto/",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "published": "2026-06-23T22:30:57+00:00",
+      "summary": "Order warns of national security risks if post-quantum cryptography isn't adopted in time.",
+      "category": "Policy & Safety",
+      "color": "#ff6600"
+    },
+    {
+      "id": "c7b57177e881",
+      "title": "Trains halted across Germany because of communication system problem",
+      "url": "https://apnews.com/article/germany-trains-halted-communications-radio-problem-deutsche-bahn-e8fd970b2d889f3ae7ce03322d5c726b",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T21:19:44+00:00",
+      "summary": "⬆ 161 points · 154 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "9ab4e89c7489",
+      "title": "Heads in the game",
+      "url": "https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-06-23T21:00:00+00:00",
+      "summary": "The Argentina v. France final of the 2022 Men’s World Cup in Qatar was shaping up to be one of the most epic games in soccer history. With just 12 minutes remaining in the extra time added to the game to break a tie, the referee had a critical decision to make—and fast. Lionel...",
+      "category": "Big Tech News",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "cab8cc49d4c1",
+      "title": "Super Mario is mathier than you think",
+      "url": "https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-06-23T21:00:00+00:00",
+      "summary": "Here’s a problem you probably didn’t solve in school: You’re an ambitious young plumber from Brooklyn in a world inhabited by violent human-size mushrooms called Goombas. The love of your life has been kidnapped, so you embark on a quest to rescue her, venturing through stretc...",
+      "category": "Big Tech News",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "251d7d3c7855",
+      "title": "A man of many words",
+      "url": "https://www.technologyreview.com/2026/06/23/1138267/a-man-of-many-words/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-06-23T21:00:00+00:00",
+      "summary": "Brian Sietsema has a favorite word. It’s somewhat surprising that he can choose just one. He’s the person spellers rely on to confirm pronunciations and answer questions about the roots of the words they’re given at the Scripps National Spelling Bee—arguably the world’s most p...",
+      "category": "Big Tech News",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "d5c7b562dcef",
+      "title": "Sharing a love for calculus",
+      "url": "https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-06-23T21:00:00+00:00",
+      "summary": "The national conversation about the value of education is currently dominated by speculation about the risks and positive potential of AI. Whatever your own perspective on that debate, I hope you’ll be glad to know that MIT is also working on a deeply important but comparative...",
+      "category": "Real-world AI Use",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "22a3e516196e",
+      "title": "Stand Up for Research, Innovation, and Education",
+      "url": "https://www.technologyreview.com/2026/06/23/1138274/stand-up-for-research-innovation-and-education-6/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-06-23T21:00:00+00:00",
+      "summary": "Right now, MIT alumni and friends are voicing their support for: America’s scientific and technological leadership Merit-based admissions and affordable education Advances that increase US health, security, and prosperity Our community is standing up for MIT and its mission to...",
+      "category": "Real-world AI Use",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "f1b89e0e6dff",
+      "title": "Ultrasound imaging turns a robot hand into a skillful mimic",
+      "url": "https://www.technologyreview.com/2026/06/23/1138279/ultrasound-imaging-turns-a-robot-hand-into-a-skillful-mimic/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-06-23T21:00:00+00:00",
+      "summary": "Our hands are the nimblest parts of our bodies, coordinating 34 muscles, 27 joints, and over 100 tendons and ligaments to perform countless nuanced movements and gestures. So far, robots have been notoriously bad at mimicking that dexterity, in part because researchers struggl...",
+      "category": "Big Tech News",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "bc3c63ee108a",
+      "title": "Reinventing the zipper",
+      "url": "https://www.technologyreview.com/2026/06/23/1138282/reinventing-the-zipper/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-06-23T21:00:00+00:00",
+      "summary": "With an adaptable fastener designed at CSAIL, pitching a tent or adjusting the cast for a broken bone could be almost as easy as zipping your coat. The researchers, led by associate professor Stefanie Mueller, were inspired by an abandoned prototype for a three-sided zipper th...",
+      "category": "Policy & Safety",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "4024d2a89819",
+      "title": "Engineered “mini livers” could be injected as an alternative to transplantation",
+      "url": "https://www.technologyreview.com/2026/06/23/1138285/engineered-mini-livers-could-be-injected-as-an-alternative-to-transplantation/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-06-23T21:00:00+00:00",
+      "summary": "A technology developed by Professor Sangeeta Bhatia, SM ’93, PhD ’97, and colleagues could offer new hope to the thousands of Americans with chronic liver disease who are waiting for an organ transplant or not strong enough to tolerate one. The liver is involved in regulating ...",
+      "category": "Big Tech News",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "f77313f8cbfa",
+      "title": "Plants appear to detect the patter of falling rain",
+      "url": "https://www.technologyreview.com/2026/06/23/1138288/plants-appear-to-detect-the-patter-of-falling-rain/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-06-23T21:00:00+00:00",
+      "summary": "MIT engineers have found the first direct evidence that plant seeds can sense sounds in nature: Rice submerged in shallow water germinated 30% to 40% more quickly when exposed to vibrations from water dripping on the surface. They think other types of seeds may respond similar...",
+      "category": "Big Tech News",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "d8a8b21ee539",
+      "title": "A breath test could diagnose pneumonia in minutes",
+      "url": "https://www.technologyreview.com/2026/06/23/1138291/a-breath-test-could-diagnose-pneumonia-in-minutes/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-06-23T21:00:00+00:00",
+      "summary": "With a test being developed at MIT, diagnosing pneumonia and other lung conditions could someday be as easy as breathing into a tube. The test, dubbed PlasmoSniff, is a portable, chip-scale sensor that traps and detects biomarkers, synthetic compounds indicating disease. The i...",
+      "category": "Policy & Safety",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "7ac8157f1fe1",
+      "title": "Don't verify email addresses by sending spam to them",
+      "url": "https://milek7.pl/mailverifyspam/",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T20:23:49+00:00",
+      "summary": "⬆ 173 points · 52 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "cbf9487549c8",
+      "title": "Orion 1.1 for macOS is out, with containers",
+      "url": "https://orionbrowser.com/updates/versions/1.1",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T20:22:41+00:00",
+      "summary": "⬆ 32 points · 0 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "1170c2dc2174",
+      "title": "Oracle’s 21,000 layoffs help drive its debt-fueled AI investments",
+      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "published": "2026-06-23T20:17:38+00:00",
+      "summary": "Oracle is spending billions on data center infrastructure to support AI.",
+      "category": "Tools & Stack",
+      "color": "#ff6600"
+    },
+    {
+      "id": "58fe011fb627",
+      "title": "Show HN: RLM-based local debugger for AI agent traces",
+      "url": "https://github.com/context-labs/halo",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T18:21:52+00:00",
+      "summary": "⬆ 19 points · 7 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "1948945ee980",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "source": "OpenAI",
+      "source_type": "company",
+      "published": "2026-06-23T17:00:00+00:00",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "category": "Models & Research",
+      "color": "#10a37f"
+    },
+    {
+      "id": "492604e8457d",
+      "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-23T17:00:00+00:00",
+      "summary": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise workflows.",
+      "category": "Models & Research",
+      "color": "#0d9488"
+    },
+    {
+      "id": "c49e0b9bdaf3",
+      "title": "Build a protein research copilot with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-protein-research-copilot-with-amazon-bedrock-agentcore/",
+      "source": "AWS ML",
+      "source_type": "company",
+      "published": "2026-06-23T16:39:34+00:00",
+      "summary": "This post shows you how to build a conversational protein research assistant that combines three capabilities: Natural language query parsing to extract structured search parameters, vector similarity search over protein embeddings using a specialized language model and ai-gen...",
+      "category": "Models & Research",
+      "color": "#ff9900"
+    },
+    {
+      "id": "2e7fd44e7f72",
+      "title": "Shared infrastructure, isolated tenants: Pool model multi-tenancy with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/shared-infrastructure-isolated-tenants-pool-model-multi-tenancy-with-amazon-bedrock-agentcore/",
+      "source": "AWS ML",
+      "source_type": "company",
+      "published": "2026-06-23T15:43:59+00:00",
+      "summary": "In this post, you will learn patterns for implementing production-ready multi-tenant systems using Amazon Bedrock AgentCore. You will see these patterns demonstrated through healthcare AI agents that serve multiple clinics and hospitals.",
+      "category": "Models & Research",
+      "color": "#ff9900"
+    },
+    {
+      "id": "41db22d041bb",
+      "title": "AI's Affordability Crisis",
+      "url": "https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T15:11:17+00:00",
+      "summary": "⬆ 284 points · 375 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "5bf2bc3dc618",
+      "title": "Mistral OCR 4",
+      "url": "https://mistral.ai/news/ocr-4/",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T14:03:19+00:00",
+      "summary": "⬆ 465 points · 121 comments on Hacker News",
+      "category": "Models & Research",
+      "color": "#ff6600"
+    },
+    {
+      "id": "aca01865fd76",
+      "title": "4 days left to save up to $190 on TechCrunch Founder Summit 2026",
+      "url": "https://techcrunch.com/2026/06/23/4-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-23T14:00:00+00:00",
+      "summary": "Four days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 — the ultimate founder bootcamp — before Early Bird rates end on June 26 at 11:59 p.m. PT. Register today.",
+      "category": "Big Tech News",
+      "color": "#0d9488"
+    },
+    {
+      "id": "cea555c8dbfd",
+      "title": "Madison Square Garden compiled a list of activists against facial recognition",
+      "url": "https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T13:36:10+00:00",
+      "summary": "⬆ 301 points · 88 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "942fad7ac452",
+      "title": "How Businesses Are Building Specialized AI They Can Trust",
+      "url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
+      "source": "NVIDIA",
+      "source_type": "company",
+      "published": "2026-06-23T13:00:07+00:00",
+      "summary": "Companies are asking how to build specialized AI that fits with the way their workflows actually run. The first wave of enterprise AI was about access. Companies experimented with new frontier and open models, ran pilots and explored how AI can help. Now, specialized agents — ...",
+      "category": "Models & Research",
+      "color": "#76b900"
+    },
+    {
+      "id": "1b1b1aa40d91",
+      "title": "Helping build shared standards for advanced AI",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "source": "OpenAI",
+      "source_type": "company",
+      "published": "2026-06-23T13:00:00+00:00",
+      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "category": "Tools & Stack",
+      "color": "#10a37f"
+    },
+    {
+      "id": "6ad2703ed5c3",
+      "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
+      "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-06-23T13:00:00+00:00",
+      "summary": "Stockholm-based startup Fika Jobs is building a video-first hiring platform that combines AI interview agents with short-form video profiles, creating something that feels like a cross between LinkedIn and TikTok.",
+      "category": "Tools & Stack",
+      "color": "#0d9488"
+    },
+    {
+      "id": "237e7c87455b",
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "source": "Hugging Face",
+      "source_type": "company",
+      "published": "2026-06-23T12:51:55+00:00",
+      "summary": "",
+      "category": "Big Tech News",
+      "color": "#e9a800"
+    },
+    {
+      "id": "2859bfe773c9",
+      "title": "The Low-Tech AI of Elden Ring",
+      "url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T11:40:50+00:00",
+      "summary": "⬆ 145 points · 79 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "eeb4f35cb8d6",
+      "title": "Apple is going to raise device prices, but when?",
+      "url": "https://daringfireball.net/linked/2026/06/22/apple-device-prices-when",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-23T10:54:56+00:00",
+      "summary": "⬆ 104 points · 82 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "5669b8cec957",
+      "title": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
+      "url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
+      "source": "NVIDIA",
+      "source_type": "company",
+      "published": "2026-06-23T09:00:38+00:00",
+      "summary": "NVIDIA technologies power more than 400 of the world’s 500 fastest supercomputers — 81% of the TOP500 — according to the latest rankings released this week at the ISC High Performance conference in Hamburg, Germany.",
+      "category": "Big Tech News",
+      "color": "#76b900"
+    },
     {
       "id": "65171448dd1f",
       "title": "AI Built a Nuke and Still Lost",
@@ -113,6 +498,28 @@ const ARTICLES_DATA = {
       "summary": "",
       "category": "Tools & Stack",
       "color": "#e9a800"
+    },
+    {
+      "id": "c144d0a70e05",
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "source": "Hugging Face",
+      "source_type": "company",
+      "published": "2026-06-23T00:00:00+00:00",
+      "summary": "",
+      "category": "Models & Research",
+      "color": "#e9a800"
+    },
+    {
+      "id": "a32d4d3dc25d",
+      "title": "Why eval startups fail (2025)",
+      "url": "https://thomasliao.com/eval-startups",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-06-22T23:20:53+00:00",
+      "summary": "⬆ 9 points · 1 comments on Hacker News",
+      "category": "Funding & Business",
+      "color": "#ff6600"
     },
     {
       "id": "d8601afd6862",
@@ -390,17 +797,6 @@ const ARTICLES_DATA = {
       "color": "#76b900"
     },
     {
-      "id": "e98fab613985",
-      "title": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
-      "url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
-      "source": "NVIDIA",
-      "source_type": "company",
-      "published": "2026-06-22T13:00:20+00:00",
-      "summary": "At the ISC conference running in Hamburg this week, NVIDIA is introducing new software that speeds AI for science, from chemistry and materials discovery to the search for dark matter. The NVIDIA DAQIRI library and new NVIDIA ALCHEMI NIM microservices — as well as the NVIDIA c...",
-      "category": "Tools & Stack",
-      "color": "#76b900"
-    },
-    {
       "id": "2ace5aa8e79c",
       "title": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
       "url": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
@@ -409,6 +805,17 @@ const ARTICLES_DATA = {
       "published": "2026-06-22T13:00:20+00:00",
       "summary": "Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. The supercomputers will use the HPE Cray Supercomputing G...",
       "category": "Big Tech News",
+      "color": "#76b900"
+    },
+    {
+      "id": "e98fab613985",
+      "title": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+      "url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+      "source": "NVIDIA",
+      "source_type": "company",
+      "published": "2026-06-22T13:00:20+00:00",
+      "summary": "At the ISC conference running in Hamburg this week, NVIDIA is introducing new software that speeds AI for science, from chemistry and materials discovery to the search for dark matter. The NVIDIA DAQIRI library and new NVIDIA ALCHEMI NIM microservices — as well as the NVIDIA c...",
+      "category": "Tools & Stack",
       "color": "#76b900"
     },
     {
@@ -1424,39 +1831,6 @@ const ARTICLES_DATA = {
       "color": "#e9a800"
     },
     {
-      "id": "7c8cd3e9533a",
-      "title": "The Gemini-Powered Google Home Speaker Is Finally Here",
-      "url": "https://www.wired.com/story/the-gemini-powered-google-home-speaker-is-finally-here/",
-      "source": "Wired",
-      "source_type": "news",
-      "published": "2026-06-17T07:30:00+00:00",
-      "summary": "Arriving six years after Google’s last smart speaker, the new HomePod-style device was redesigned to play host to Gemini’s chatbot.",
-      "category": "Models & Research",
-      "color": "#6b7280"
-    },
-    {
-      "id": "db9922117603",
-      "title": "Entrepreneurs in Nairobi make the case for going solar",
-      "url": "https://www.technologyreview.com/2026/06/17/1138600/entrepreneurs-nairobi-case-for-going-solar/",
-      "source": "MIT Tech Review",
-      "source_type": "news",
-      "published": "2026-06-17T03:30:00+00:00",
-      "summary": "Most of Kenya’s power grid runs on renewables. But with 25% of communities lacking centralized electricity, the nation is looking to off-grid solar to hit its goal of delivering universal electricity access by 2030 without driving up emissions. The ever-­improving economics of...",
-      "category": "Policy & Safety",
-      "color": "#b91c1c"
-    },
-    {
-      "id": "8ee7ec35dcf5",
-      "title": "Hacking the atmosphere: Geoengineering gets a reality check",
-      "url": "https://www.technologyreview.com/2026/06/17/1138743/hacking-atmosphere-geoengineering-reality-check/",
-      "source": "MIT Tech Review",
-      "source_type": "news",
-      "published": "2026-06-17T03:30:00+00:00",
-      "summary": "Jim Franke pulls away the cover page of a presentation on the wraparound desk in his office, revealing an illustration of an odd-­looking aircraft with massive wings stretching out from a stubby fuselage. The uncrewed plane is soaring thousands of meters higher than commercial...",
-      "category": "Big Tech News",
-      "color": "#b91c1c"
-    },
-    {
       "id": "916e534ab8d5",
       "title": "Introducing LifeSciBench",
       "url": "https://openai.com/index/introducing-life-sci-bench",
@@ -1479,28 +1853,6 @@ const ARTICLES_DATA = {
       "color": "#e9a800"
     },
     {
-      "id": "7b0b77197773",
-      "title": "Safeguard your agentic AI applications with the Amazon Bedrock Guardrails InvokeGuardrailChecks API",
-      "url": "https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/",
-      "source": "AWS ML",
-      "source_type": "company",
-      "published": "2026-06-16T22:46:46+00:00",
-      "summary": "Today, we’re announcing a new API with Amazon Bedrock Guardrails. With this API, you can apply individual safeguards, also referred to as safety checks, at any point in your agentic AI applications without creating guardrail resources. In this post, we walk through how the Inv...",
-      "category": "Tools & Stack",
-      "color": "#ff9900"
-    },
-    {
-      "id": "e56087ba39e5",
-      "title": "Hands Free, AIs Forward: NVIDIA XR AI Brings Agents to AR Glasses",
-      "url": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
-      "source": "NVIDIA",
-      "source_type": "company",
-      "published": "2026-06-16T22:30:41+00:00",
-      "summary": "NVIDIA XR AI is now available in public beta, giving developers a framework for building multimodal AI agents for AR glasses and XR devices.",
-      "category": "Models & Research",
-      "color": "#76b900"
-    },
-    {
       "id": "f079545d0a19",
       "title": "Year of free HPE software a “step in the correct direction” in VMware rivalry",
       "url": "https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software/",
@@ -1512,50 +1864,6 @@ const ARTICLES_DATA = {
       "color": "#ff6600"
     },
     {
-      "id": "73f0fe714484",
-      "title": "Coherent Breaks Ground on Expanded Texas Facility, Scaling AI’s Optical Backbone",
-      "url": "https://blogs.nvidia.com/blog/coherent-texas-ai-optical/",
-      "source": "NVIDIA",
-      "source_type": "company",
-      "published": "2026-06-16T22:10:56+00:00",
-      "summary": "AI runs at the speed of light. More and more, that light is made in Texas. Coherent broke ground today on an expanded manufacturing building in Sherman, Texas. The company makes the lasers, optical components and compound semiconductors that wire AI systems together — and runs...",
-      "category": "Real-world AI Use",
-      "color": "#76b900"
-    },
-    {
-      "id": "a003a9a1e711",
-      "title": "Introducing container caching in Amazon SageMaker AI for faster model scaling",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-container-caching-in-amazon-sagemaker-ai-for-faster-model-scaling/",
-      "source": "AWS ML",
-      "source_type": "company",
-      "published": "2026-06-16T20:16:02+00:00",
-      "summary": "Today, we’re excited to announce container image caching for Amazon SageMaker AI inference, the next major advancement in our faster scaling optimization journey. This speeds up end-to-end latency by up to 2x for generative AI models during scale-out events.",
-      "category": "Models & Research",
-      "color": "#ff9900"
-    },
-    {
-      "id": "621c369bb66f",
-      "title": "A 1969 camera operators' strike created Upstairs Downstairs multiverse",
-      "url": "https://ironicsans.ghost.io/the-color-strike/",
-      "source": "Hacker News",
-      "source_type": "community",
-      "published": "2026-06-16T18:24:39+00:00",
-      "summary": "⬆ 79 points · 24 comments on Hacker News",
-      "category": "Big Tech News",
-      "color": "#ff6600"
-    },
-    {
-      "id": "0bf5057db0d1",
-      "title": "Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI",
-      "url": "https://aws.amazon.com/blogs/machine-learning/parallelize-speculative-decoding-with-p-eagle-on-amazon-sagemaker-ai/",
-      "source": "AWS ML",
-      "source_type": "company",
-      "published": "2026-06-16T17:47:09+00:00",
-      "summary": "This post walks you through how to use P-EAGLE directly within Amazon SageMaker AI. It will demonstrate how to select a compatible model from the SageMaker JumpStart catalog, configure the parallel drafting specifications, and deploy a highly optimized real-time SageMaker AI e...",
-      "category": "Models & Research",
-      "color": "#ff9900"
-    },
-    {
       "id": "98586e1b1098",
       "title": "Critical Copilot vulnerability allowed hackers to steal 2FA code from users",
       "url": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
@@ -1564,50 +1872,6 @@ const ARTICLES_DATA = {
       "published": "2026-06-16T11:15:46+00:00",
       "summary": "SearchLeak exploit shows why the industry's approach to LLM security fails over and over.",
       "category": "Models & Research",
-      "color": "#ff6600"
-    },
-    {
-      "id": "a8a99da03dcc",
-      "title": "HPE AI Factory With NVIDIA Expands for the Era of Agents",
-      "url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
-      "source": "NVIDIA",
-      "source_type": "company",
-      "published": "2026-06-16T11:00:27+00:00",
-      "summary": "Enterprises are moving agentic AI from proof of concept to production — and the next generation of AI factories are built for the era of agents. At HPE Discover Las Vegas, running through Thursday, June 18, NVIDIA and HPE are expanding the HPE AI Factory with NVIDIA, including...",
-      "category": "Real-world AI Use",
-      "color": "#76b900"
-    },
-    {
-      "id": "39294416a114",
-      "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
-      "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
-      "source": "NVIDIA",
-      "source_type": "company",
-      "published": "2026-06-16T09:30:36+00:00",
-      "summary": "Every breakthrough AI model starts the same way: with a training run. The infrastructure running those training jobs shapes everything: how fast teams can iterate, what scale of model they can build and whether those jobs complete reliably. As models grow in size, complexity a...",
-      "category": "Models & Research",
-      "color": "#76b900"
-    },
-    {
-      "id": "031fe56c38cf",
-      "title": "Predicting model behavior before release by simulating deployment",
-      "url": "https://openai.com/index/deployment-simulation",
-      "source": "OpenAI",
-      "source_type": "company",
-      "published": "2026-06-16T00:00:00+00:00",
-      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "category": "Models & Research",
-      "color": "#10a37f"
-    },
-    {
-      "id": "67377d6541c6",
-      "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
-      "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "published": "2026-06-15T17:55:46+00:00",
-      "summary": "AMD's stripping of TSME from consumer CPUs appears to be a deliberate, covert move.",
-      "category": "Big Tech News",
       "color": "#ff6600"
     },
     {
@@ -1622,28 +1886,6 @@ const ARTICLES_DATA = {
       "color": "#4285f4"
     },
     {
-      "id": "9b41ef631f1c",
-      "title": "Introducing the OpenAI Partner Network",
-      "url": "https://openai.com/index/introducing-openai-partner-network",
-      "source": "OpenAI",
-      "source_type": "company",
-      "published": "2026-06-14T17:00:00+00:00",
-      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
-      "category": "Big Tech News",
-      "color": "#10a37f"
-    },
-    {
-      "id": "6e9cc34dd8c5",
-      "title": "PeopleSoft 0-day affecting hundreds of organizations steals gigabytes of data",
-      "url": "https://arstechnica.com/security/2026/06/peoplesoft-0-day-affecting-hundreds-of-organizations-steals-gigabytes-of-data/",
-      "source": "Ars Technica",
-      "source_type": "news",
-      "published": "2026-06-12T19:26:47+00:00",
-      "summary": "Vulnerability in the Oracle-owned PeopleSoft software is about as critical as they come.",
-      "category": "Big Tech News",
-      "color": "#ff6600"
-    },
-    {
       "id": "a004c2b18314",
       "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
@@ -1653,28 +1895,6 @@ const ARTICLES_DATA = {
       "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
       "category": "Funding & Business",
       "color": "#4285f4"
-    },
-    {
-      "id": "9a812e42d024",
-      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "url": "https://huggingface.co/blog/torch-mlp-fusion",
-      "source": "Hugging Face",
-      "source_type": "company",
-      "published": "2026-06-11T00:00:00+00:00",
-      "summary": "",
-      "category": "Big Tech News",
-      "color": "#e9a800"
-    },
-    {
-      "id": "6d8d3867b1f2",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "source": "Hugging Face",
-      "source_type": "company",
-      "published": "2026-06-09T10:46:19+00:00",
-      "summary": "",
-      "category": "Big Tech News",
-      "color": "#e9a800"
     },
     {
       "id": "752c96ffbdef",
