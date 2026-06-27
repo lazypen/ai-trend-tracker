@@ -40,6 +40,10 @@
       --shadow:     0 2px 12px rgba(0,0,0,0.08);
     }
 
+    body, header, aside, .card, #search {
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: var(--bg);
@@ -290,7 +294,7 @@
     </div>
     <div class="header-right">
       <span id="lastUpdated2" style="font-size:11px;color:var(--text3)"></span>
-      <button class="icon-btn" id="themeBtn" title="Toggle theme">🌙</button>
+      <button class="icon-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle dark mode">🌙</button>
       <button class="icon-btn" onclick="location.reload()" title="Reload">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
           <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/>
@@ -539,7 +543,7 @@ function render() {
       const cfg    = CAT_CONFIG[a.category] || { color: '#6b7280' };
 
       html += `
-        <div class="card${isRead ? ' read' : ''}" data-id="${a.id}" onclick="openArticle('${a.id}','${escAttr(a.url)}')">
+        <div class="card${isRead ? ' read' : ''}" data-id="${a.id}" role="article" tabindex="0" onclick="openArticle('${a.id}','${escAttr(a.url)}')" onkeydown="if(event.key==='Enter'||event.key===' ')openArticle('${a.id}','${escAttr(a.url)}')" aria-label="${esc(a.title)}">
           <div class="card-meta">
             <span class="source-badge">
               <span class="dot" style="background:${a.color}"></span>
@@ -571,6 +575,7 @@ function render() {
 // ── Actions ───────────────────────────────────────────────────────────────────
 
 function openArticle(id, url) {
+  if (!isSafeUrl(url)) return;
   markRead(id);
   window.open(url, '_blank', 'noopener');
 }
@@ -621,9 +626,21 @@ function bindEvents() {
 // ── Utils ─────────────────────────────────────────────────────────────────────
 
 function esc(s) {
-  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  return String(s || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 function escAttr(s) { return esc(s); }
+
+function isSafeUrl(url) {
+  try {
+    const u = new URL(url);
+    return u.protocol === 'http:' || u.protocol === 'https:';
+  } catch { return false; }
+}
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 

@@ -9,35 +9,20 @@ Usage: python3 fetch_ai_news.py
 
 import json
 import sys
-import os
 import hashlib
-import subprocess
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-
-# ─── Auto-install dependencies ───────────────────────────────────────────────
-
-def pip_install(package):
-    subprocess.check_call(
-        [sys.executable, "-m", "pip", "install", package, "--break-system-packages", "-q"],
-        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
-    )
+from urllib.parse import urlparse
 
 try:
     import feedparser
-except ImportError:
-    print("📦 Installing feedparser...")
-    pip_install("feedparser")
-    import feedparser
-
-try:
     import requests
 except ImportError:
-    print("📦 Installing requests...")
-    pip_install("requests")
-    import requests
+    print("Error: missing dependencies. Run: pip install -r requirements.txt")
+    sys.exit(1)
 
 # ─── Configuration ───────────────────────────────────────────────────────────
 
@@ -174,6 +159,13 @@ HN_AI_KEYWORDS = [
 
 # ─── Helpers ─────────────────────────────────────────────────────────────────
 
+def is_safe_url(url: str) -> bool:
+    try:
+        scheme = urlparse(url).scheme
+        return scheme in ("http", "https")
+    except Exception:
+        return False
+
 def make_id(url: str) -> str:
     return hashlib.md5(url.encode()).hexdigest()[:12]
 
@@ -195,7 +187,7 @@ def clean_html(text: str) -> str:
 def categorize(title: str, summary: str = "") -> str:
     text = (title + " " + (summary or "")).lower()
     for category, keywords in CATEGORIES.items():
-        if any(kw in text for kw in keywords):
+        if any(re.search(r'\b' + re.escape(kw.strip()) + r'\b', text) for kw in keywords):
             return category
     return "Big Tech News"
 
@@ -235,7 +227,7 @@ def fetch_rss(feed_cfg: dict) -> list:
         feed = feedparser.parse(resp.content)
         for entry in feed.entries[:MAX_PER_FEED]:
             url = entry.get("link", "").strip()
-            if not url:
+            if not url or not is_safe_url(url):
                 continue
             title = clean_html(entry.get("title", ""))
             summary = clean_html(
@@ -256,48 +248,55 @@ def fetch_rss(feed_cfg: dict) -> list:
         print(f"     ✗ {feed_cfg['source']}: {e}")
     return articles
 
+def _fetch_hn_item(sid: int):
+    try:
+        sr = requests.get(
+            f"https://hacker-news.firebaseio.com/v0/item/{sid}.json",
+            timeout=8
+        )
+        story = sr.json()
+        if not story or story.get("type") != "story":
+            return None
+        title = story.get("title", "")
+        if not any(kw in title.lower() for kw in HN_AI_KEYWORDS):
+            return None
+        url = story.get("url") or f"https://news.ycombinator.com/item?id={sid}"
+        if not is_safe_url(url):
+            return None
+        return {
+            "id":          make_id(url),
+            "title":       title,
+            "url":         url,
+            "source":      "Hacker News",
+            "source_type": "community",
+            "published":   datetime.fromtimestamp(story.get("time", 0), tz=timezone.utc).isoformat(),
+            "summary":     f"⬆ {story.get('score', 0)} points · {story.get('descendants', 0)} comments on Hacker News",
+            "category":    categorize(title),
+            "color":       SOURCE_COLORS["Hacker News"],
+        }
+    except Exception:
+        return None
+
 def fetch_hackernews() -> list:
-    articles = []
     try:
         resp = requests.get(
             "https://hacker-news.firebaseio.com/v0/topstories.json",
             timeout=REQUEST_TIMEOUT
         )
         story_ids = resp.json()[:HN_SCAN]
-        for sid in story_ids:
-            if len(articles) >= HN_MAX:
-                break
-            try:
-                sr = requests.get(
-                    f"https://hacker-news.firebaseio.com/v0/item/{sid}.json",
-                    timeout=8
-                )
-                story = sr.json()
-                if not story or story.get("type") != "story":
-                    continue
-                title = story.get("title", "")
-                if not any(kw in title.lower() for kw in HN_AI_KEYWORDS):
-                    continue
-                url = story.get("url") or f"https://news.ycombinator.com/item?id={sid}"
-                score = story.get("score", 0)
-                published = datetime.fromtimestamp(
-                    story.get("time", 0), tz=timezone.utc
-                ).isoformat()
-                articles.append({
-                    "id":          make_id(url),
-                    "title":       title,
-                    "url":         url,
-                    "source":      "Hacker News",
-                    "source_type": "community",
-                    "published":   published,
-                    "summary":     f"⬆ {score} points · {story.get('descendants', 0)} comments on Hacker News",
-                    "category":    categorize(title),
-                    "color":       SOURCE_COLORS["Hacker News"],
-                })
-            except Exception:
-                pass
     except Exception as e:
         print(f"     ✗ Hacker News: {e}")
+        return []
+
+    articles = []
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        futures = {ex.submit(_fetch_hn_item, sid): sid for sid in story_ids}
+        for future in as_completed(futures):
+            result = future.result()
+            if result:
+                articles.append(result)
+            if len(articles) >= HN_MAX:
+                break
     return articles
 
 # ─── Main ────────────────────────────────────────────────────────────────────
