@@ -4,7 +4,7 @@
     {
       "name": "daily-ai-trends",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8765"],
+      "runtimeArgs": ["server.py", "8765"],
       "port": 8765
     }
   ]
