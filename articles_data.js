@@ -1,9 +1,449 @@
-// AI Trend Tracker — auto-generated 2026-11-08 12:21:10
+// AI Trend Tracker — auto-generated 2026-11-09 14:34:37
 // DO NOT edit manually — re-run fetch_ai_news.py to refresh
 const ARTICLES_DATA = {
-  "last_updated": "2026-11-08T12:21:10.521421+00:00",
-  "total": 533,
+  "last_updated": "2026-11-09T14:34:37.976959+00:00",
+  "total": 529,
   "articles": [
+    {
+      "id": "9e75efd7851d",
+      "title": "Jonathan Kanter is using AI to take on Big Tech",
+      "url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+      "source": "The Verge",
+      "source_type": "news",
+      "published": "2026-11-09T14:30:00+00:00",
+      "summary": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private sector, and with a perhaps unexpected tool: AI. Alongside form...",
+      "category": "Tools & Stack",
+      "color": "#e11d48"
+    },
+    {
+      "id": "0fe933f7440b",
+      "title": "Automattic debuts a platform to deploy vibe coding apps amid a changing internet",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-11-09T14:00:00+00:00",
+      "summary": "Automattic aims to compete with likes of Lovable with Spacefast",
+      "category": "Real-world AI Use",
+      "color": "#0d9488"
+    },
+    {
+      "id": "03dc02e8d74b",
+      "title": "Pomeras sleek distraction-free writing machine is just too small",
+      "url": "https://www.theverge.com/gadgets/1029603/pomeras-dm25us-distraction-free-writing-review",
+      "source": "The Verge",
+      "source_type": "news",
+      "published": "2026-11-09T14:00:00+00:00",
+      "summary": "Pomera's digital typewriters are a cult hit with those craving a distraction-free writing experience. Dedicated word processor devices never caught on in the US the way they did in Japan. And the ones available in the US, like the AlphaSmart Neo, just weren't as sleek and port...",
+      "category": "Big Tech News",
+      "color": "#e11d48"
+    },
+    {
+      "id": "c145211558dd",
+      "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+      "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-11-09T13:15:00+00:00",
+      "summary": "This is todays edition of The Download, our weekday newsletter that provides a daily dose of whats going on in the world of technology. Opinion: The climate case for AI has not been made —By Mary Nichols, distinguished counsel at the UCLA School of Law and the former chair of ...",
+      "category": "Real-world AI Use",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "4bc954d8c97a",
+      "title": "ChatGPT's growth is bouncing back, and rivals still have less than 10% of AI chatbot traffic each - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdDF3M1NLLUNWOXprcDFzM1hBdWlMME9WNzFHOFN1RHpzTUl6RU1SazB3UnBBZmo2aXN2bjJsM09JS2NVQjhfSU1Jc1hrREpUMVFNcWJTaWgxQWxhUDhWTTFxR2pQdzFLY3YyenVnR2pLWnRXV29JMUliLV9IT2hyVHQwQXJ5a1RhUElwQnVZcUpSaVRxVUE4bg?oc=5",
+      "source": "ChatGPT News",
+      "source_type": "company",
+      "published": "2026-11-09T13:00:00+00:00",
+      "summary": "ChatGPT's growth is bouncing back, and rivals still have less than 10% of AI chatbot traffic each&nbsp;&nbsp;Business Insider",
+      "category": "Models & Research",
+      "color": "#10a37f"
+    },
+    {
+      "id": "08088be30a8e",
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-11-09T13:00:00+00:00",
+      "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For special...",
+      "category": "Big Tech News",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "885842594d37",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "source": "Hugging Face",
+      "source_type": "company",
+      "published": "2026-11-09T12:34:29+00:00",
+      "summary": "",
+      "category": "Big Tech News",
+      "color": "#e9a800"
+    },
+    {
+      "id": "1920affe5b22",
+      "title": "Humans will never again create a project like Wikipedia",
+      "url": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-11-09T12:30:20+00:00",
+      "summary": "⬆ 207 points · 150 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "8818073d2b80",
+      "title": "Fold Epic Paper Airplanes",
+      "url": "https://www.foldableflight.com",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-11-09T12:19:22+00:00",
+      "summary": "⬆ 240 points · 51 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "c71b9ea7885c",
+      "title": "Instagram’s AI age detection is expanding globally",
+      "url": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
+      "source": "The Verge",
+      "source_type": "news",
+      "published": "2026-11-09T12:00:00+00:00",
+      "summary": "Meta is globally expanding the age estimation technology it uses to find teenagers on Instagram who haven't correctly disclosed their age. The rollout will automatically place \"millions more teens on Instagram into Teen Account protections,\" according to Meta's announcement, a...",
+      "category": "Big Tech News",
+      "color": "#e11d48"
+    },
+    {
+      "id": "32e60999ea66",
+      "title": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
+      "url": "https://github.com/samir-sarwar/samir-vllm",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-11-09T11:36:55+00:00",
+      "summary": "⬆ 56 points · 9 comments on Hacker News",
+      "category": "Models & Research",
+      "color": "#ff6600"
+    },
+    {
+      "id": "ed715acb0877",
+      "title": "Torrent underground",
+      "url": "https://www.theverge.com/cs/features/1027614/torrent-movies-file-sharing-download-piracy",
+      "source": "The Verge",
+      "source_type": "news",
+      "published": "2026-11-09T11:00:05+00:00",
+      "summary": "When Jane first heard about Memory and Imagination, a rare 1990s documentary about the Library of Congress, she was intrigued. But the Canadian writer in her 30s couldn’t find the movie anywhere — not on streaming services, not on YouTube, not on pirate sites — and her intrigu...",
+      "category": "Tools & Stack",
+      "color": "#e11d48"
+    },
+    {
+      "id": "3b539648f782",
+      "title": "Anthropic’s Customers Are Also Its Test Subjects - The New Republic",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWkEyQWpWcWJoX2xsT2lrOXZvT0tnekNFbnJWMU1yZE9PdzNLcWxpU213WU5nbG52Zk94N1QyLWFQNEZHSWxoSmdjRkVoamlQRXJTalduTm4yOUViVGFHUEhKaWN0eFMtM2VoQUxGX1dxZWxiZUZ1Z3dkeDhqRjVkb2tuaw?oc=5",
+      "source": "Anthropic",
+      "source_type": "company",
+      "published": "2026-11-09T11:00:00+00:00",
+      "summary": "Anthropic’s Customers Are Also Its Test Subjects&nbsp;&nbsp;The New Republic",
+      "category": "Big Tech News",
+      "color": "#d4845a"
+    },
+    {
+      "id": "9ca3bf037b29",
+      "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+      "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+      "source": "Wired",
+      "source_type": "news",
+      "published": "2026-11-09T11:00:00+00:00",
+      "summary": "As the publishing industry wrestles with paranoia over the provenance of manuscripts, writers are caught in an impossible bind.",
+      "category": "Big Tech News",
+      "color": "#6b7280"
+    },
+    {
+      "id": "8be9fd4aca1a",
+      "title": "The climate case for AI has not been made",
+      "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+      "source": "MIT Tech Review",
+      "source_type": "news",
+      "published": "2026-11-09T10:00:00+00:00",
+      "summary": "This week, as countries meet in Antalya, Turkey for the United Nations climate conference, one topic likely to dominate the conversation is artificial intelligence. The host has already called on countries to commit to ensuring that AI is designed, powered, and deployed in way...",
+      "category": "Real-world AI Use",
+      "color": "#b91c1c"
+    },
+    {
+      "id": "22ca45455eb6",
+      "title": "US man sues OpenAI, alleges ChatGPT helped wife plan his murder - Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZHl3LUF6bzZSMTMwSElraEx4dnpoblFMdGxiRGJlLXBnR3RmbGRsN1pGekFFOFotX18yOUVWOTZhSDlDcW1qY29XQVVXZ3NET0w2T1ZoREF1eGRBenQ4aFpMUHJYYWhFYy1tOHlURkh6ZHoxbkQ4eDJlVWZwcm9FbV8tZjR1VzVEWE8xTGMtQms5dFR1SlNhb1QwRW16TG5ZT0Rpbnd0S1AyYzTSAbABQVVfeXFMT1J6SnFJak9uVFlaQnVZS0hxektUS01neUZxSEoyYndOSDYxTW1ZOXBDYWYwNzJiSHp4QllRbV9nLWdYaEgtejVGb3hkWDJURzA2NnNKbFNxUWFWeC1nTENsZUxPcTVmWVdMT3ZLQjNCdUhTT0FkblRtcjFmQzN6TG1JSUFyWDVPam45VUFiUXpxWGp2QWtRZThxWFF3TWY4WDloV3ZXNDFtZVpjcVFyVWY?oc=5",
+      "source": "ChatGPT News",
+      "source_type": "company",
+      "published": "2026-11-09T09:12:17+00:00",
+      "summary": "US man sues OpenAI, alleges ChatGPT helped wife plan his murder&nbsp;&nbsp;Firstpost",
+      "category": "Models & Research",
+      "color": "#10a37f"
+    },
+    {
+      "id": "1c05f98d42eb",
+      "title": "DeepSeek’s AI agent platform hits 1.54 million daily users - The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY0xLME1wRHc1czhCSFpJckpMclJ5V1VIcFJFc0pGM25mOU5Pa3d4MWxZUmt5N182dHNIYTdSUlRKbzkxLThoZDh1eG9qcWsxTmwxcE9WcTFZTDJ2TDJmRDlnbmNaSnZVZ1J4MnMzemlaSnpyTTF4VUZDazVfeUQ0U1J0TFk3VkczeGktM2tsSHBDRExMZmMwUG1qV3ZkUVNqU01vQUhVeldtYk5B?oc=5",
+      "source": "DeepSeek",
+      "source_type": "company",
+      "published": "2026-11-09T08:30:00+00:00",
+      "summary": "DeepSeek’s AI agent platform hits 1.54 million daily users&nbsp;&nbsp;The Business Times",
+      "category": "Models & Research",
+      "color": "#4f46e5"
+    },
+    {
+      "id": "bc96a80ee3a6",
+      "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+      "url": "https://news.ycombinator.com/item?id=50422628",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-11-09T08:17:49+00:00",
+      "summary": "⬆ 93 points · 25 comments on Hacker News",
+      "category": "Models & Research",
+      "color": "#ff6600"
+    },
+    {
+      "id": "8b766614f5ef",
+      "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+      "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+      "source": "Wired",
+      "source_type": "news",
+      "published": "2026-11-09T08:00:00+00:00",
+      "summary": "As data center protests break out across Europe, a mismatched band of campaigners is trying to block Google from building a sprawling new facility east of London.",
+      "category": "Big Tech News",
+      "color": "#6b7280"
+    },
+    {
+      "id": "736d2ac1a370",
+      "title": "Google AI Plus will lose access to Gemini Pro models on November 13 - Mezha.net",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCVy1iZm9iSjFaRVBHQ1JYQ0pnNXhCRnJLaWdMLXI0SG5fel9kOGpKZzJha0pTMkZJdHVXNFk1dWkyRjR6dTBLaHNsRDZxRzl1YVVrclZGa29sVHZjRnhBOWFid2E5V2lQYVRLU0JVeV9IeldpMjZtV2VKYmUzZw?oc=5",
+      "source": "Gemini News",
+      "source_type": "company",
+      "published": "2026-11-09T07:55:17+00:00",
+      "summary": "Google AI Plus will lose access to Gemini Pro models on November 13&nbsp;&nbsp;Mezha.net",
+      "category": "Models & Research",
+      "color": "#4285f4"
+    },
+    {
+      "id": "058635df0f09",
+      "title": "Google AI Plus loses Gemini Pro models on November 13 - Notebookcheck",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV2JiazhtdkZuRUdfN1U0XzA4dmt2MVlrWkNSMUN5ZEdsSkdDWVpvSS1DOXBuc0xoNEpHamZGZjVIS1prNzRYUzlFLWlvQ2xJaFVVWVI4bzZYMWNkVUMzeFFqQlhKQjU5V3NLNW5wcW9BNHhQNE9kZGxxS0Z2QlBIWjZCaXA5QTZPQmRJXzVMc3VUN2tmRnlWTjR2NVFjYUU?oc=5",
+      "source": "Gemini News",
+      "source_type": "company",
+      "published": "2026-11-09T07:48:00+00:00",
+      "summary": "Google AI Plus loses Gemini Pro models on November 13&nbsp;&nbsp;Notebookcheck",
+      "category": "Models & Research",
+      "color": "#4285f4"
+    },
+    {
+      "id": "6edd1e6afc06",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-11-09T07:04:25+00:00",
+      "summary": "⬆ 330 points · 225 comments on Hacker News",
+      "category": "Models & Research",
+      "color": "#ff6600"
+    },
+    {
+      "id": "c52455f7a6ef",
+      "title": "DeepSeek’s AI agent push gains speed as Harness tops 1.5 million daily users - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYUlFWGhzSVJHVWJFNG5qVno4Y2pKR3RHWGU4dmU2YjNDUHFoaDFESWtDai1CTW5BQWI3Y3VZZ0ZReURjU2thNktuRXRZWFJhUWhqSVM2ZGNSTUMzRVNxbWdGbTJHWlIzZzhDUHhBaDdHVzhIWVVjQko5UXN4WDJ2SmFNVk5EaE5aLThZY1dIRlB6VDFxc3N5a19uZ0JEQnBaZlhzRGFlVzNPTG14Qi1mYTJCOWtlVHVNakI0UlljUWU?oc=5",
+      "source": "DeepSeek",
+      "source_type": "company",
+      "published": "2026-11-09T07:00:04+00:00",
+      "summary": "DeepSeek’s AI agent push gains speed as Harness tops 1.5 million daily users&nbsp;&nbsp;South China Morning Post",
+      "category": "Models & Research",
+      "color": "#4f46e5"
+    },
+    {
+      "id": "13d0650657b3",
+      "title": "Hackers used DeepSeek AI in massive global cyberattack - Bangkok Post",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbEg1WFo1aHR3dTJoS0tEbFQ5N2V2WkN2R18yVF9qTHdiNmpNRERQX2w3Tm5rYlB3M0ttRnFhZmFIMEdWS3AyWHc3d1JGUXNub0Y1NzFfMGNVcW5MNVRSOEx1bVU5dHluS2VIUFQzODlrRUJNX2RLVThRM0dRSTFET19xYzNEX3luV3MwcWtCYjl4cjU1T2Z2MU1fM3pvVHRuakE?oc=5",
+      "source": "DeepSeek",
+      "source_type": "company",
+      "published": "2026-11-09T06:56:00+00:00",
+      "summary": "Hackers used DeepSeek AI in massive global cyberattack&nbsp;&nbsp;Bangkok Post",
+      "category": "Models & Research",
+      "color": "#4f46e5"
+    },
+    {
+      "id": "9ec174b51f6e",
+      "title": "Anthropic Usage Policy Takes Effect Thursday: Claude-Driven Machines Must Stop When Connection Drops - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOLURyZmgxelI5RFNnZlZ4aXNwbzNCY21yeGV3Qi1fRHVkRUJleGgwMmlwckplOUhKT0hPaS1Db290amg0WlpKU3R5VkNub1FDWXR0VFRta2ZzMTZ3Q1lYX1lRTzRiV0NKRmxfNVI4VWdaWTNmdVUxT0RYWVB2bnl4NEZtNlQzNEdrd3MteWl6SU5Zd2ZLTUdPZmdiVW1SV3N3a3NQVHhaU1h6cGxVNnowVU5GQk4zOGYtUFJxNFhJTDdaTTB4Tmc0Z1NBSHg1VUF4SmktUEplWmJsbU5HX0N5ZjNMdGVjSGxlMFE?oc=5",
+      "source": "Anthropic",
+      "source_type": "company",
+      "published": "2026-11-09T06:35:55+00:00",
+      "summary": "Anthropic Usage Policy Takes Effect Thursday: Claude-Driven Machines Must Stop When Connection Drops&nbsp;&nbsp;Tech Times",
+      "category": "Models & Research",
+      "color": "#d4845a"
+    },
+    {
+      "id": "13f4eae92136",
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-11-09T05:26:29+00:00",
+      "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+      "category": "Big Tech News",
+      "color": "#0d9488"
+    },
+    {
+      "id": "0108593a0a86",
+      "title": "ChatGPT is about to show brands their mention count - Digiday",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVUdDX2hJM3FxaFZHcW9ZWnFyekxQaWVmRUJBWGE2T2llWlB5VXpXT2czaHpZQ2tDeVB3bndUZVhUXzBSVmx4R1lnWGtkbXpMNlNXU01oRjk2RkJJbFVwYXNLUUlvMjNPQktpeDYtLXkyRHJ6dTFubGZfdks1ajJJdzdSa3VYa3dtNEE?oc=5",
+      "source": "ChatGPT News",
+      "source_type": "company",
+      "published": "2026-11-09T05:01:52+00:00",
+      "summary": "ChatGPT is about to show brands their mention count&nbsp;&nbsp;Digiday",
+      "category": "Models & Research",
+      "color": "#10a37f"
+    },
+    {
+      "id": "e283208cf41a",
+      "title": "I'm not convinced the AI bubble exists",
+      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-11-08T23:44:36+00:00",
+      "summary": "⬆ 417 points · 709 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "a6c5d0754483",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "source": "The Verge",
+      "source_type": "news",
+      "published": "2026-11-08T22:54:50+00:00",
+      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees a...",
+      "category": "Big Tech News",
+      "color": "#e11d48"
+    },
+    {
+      "id": "c4ddcf975585",
+      "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+      "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review",
+      "source": "The Verge",
+      "source_type": "news",
+      "published": "2026-11-08T22:37:22+00:00",
+      "summary": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favorite album of 2022 - Diaspora Problems...",
+      "category": "Big Tech News",
+      "color": "#e11d48"
+    },
+    {
+      "id": "6929c8b45880",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-11-08T22:20:09+00:00",
+      "summary": "⬆ 802 points · 943 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "d417e4f21505",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "source": "TechCrunch",
+      "source_type": "news",
+      "published": "2026-11-08T21:00:11+00:00",
+      "summary": "In a memo to the company, Huang admitted that he had an affair.",
+      "category": "Big Tech News",
+      "color": "#0d9488"
+    },
+    {
+      "id": "d473509d5c95",
+      "title": "Epic Games Launcher is coming to SteamOS",
+      "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos",
+      "source": "The Verge",
+      "source_type": "news",
+      "published": "2026-11-08T20:52:05+00:00",
+      "summary": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS was not specifically listed as a supported distro. Now, Communications Director Jake Jones has conf...",
+      "category": "Big Tech News",
+      "color": "#e11d48"
+    },
+    {
+      "id": "24c4747f4e2d",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "source": "The Verge",
+      "source_type": "news",
+      "published": "2026-11-08T20:22:39+00:00",
+      "summary": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors read...",
+      "category": "Big Tech News",
+      "color": "#e11d48"
+    },
+    {
+      "id": "1bef039d43a1",
+      "title": "DeepSeek says agent app tops 1.5M daily users, plans plugin marketplace - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbHZGa1dHcGFHX0FlUi1ndWtpMDRtazlrbU5kdDc0UnZZYXhPa3R3T0VQU3RCX19jdUFTSm9fVzBxRV9EanFaU1M5RHpsZ3ZPOUxkeDl1cGVDTzBzV0tUTVFoYnRQNU5XaVFNbHM4VGVwUVlhQzJoR1pkWGxXR193YTJNOS1nd1pwdTlmUjZkZ0EtMGFhTXdITUR1Yk5tU2g0UDlRcHI2NWhYSmM?oc=5",
+      "source": "DeepSeek",
+      "source_type": "company",
+      "published": "2026-11-08T19:59:00+00:00",
+      "summary": "DeepSeek says agent app tops 1.5M daily users, plans plugin marketplace&nbsp;&nbsp;Seeking Alpha",
+      "category": "Models & Research",
+      "color": "#4f46e5"
+    },
+    {
+      "id": "5f7f7d5b4dd0",
+      "title": "Outlook.com is rejecting email from domains without DMARC",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-11-08T19:20:32+00:00",
+      "summary": "⬆ 466 points · 323 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
+    },
+    {
+      "id": "3fa60b95a7a4",
+      "title": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "source": "The Verge",
+      "source_type": "news",
+      "published": "2026-11-08T19:18:19+00:00",
+      "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly ...",
+      "category": "Models & Research",
+      "color": "#e11d48"
+    },
+    {
+      "id": "a5f23dd24d67",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-11-08T18:16:07+00:00",
+      "summary": "⬆ 824 points · 443 comments on Hacker News",
+      "category": "Models & Research",
+      "color": "#ff6600"
+    },
+    {
+      "id": "c5a05441f076",
+      "title": "DeepSeek’s AI Agent Platform Hits 1.54 Million Daily Users - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUXBLN3Nwd181RFJQQzBkdGo0TUFhbGZpQ1Zxb0dPWXBORHdzeG5US1ZIOGtGUTFfc2ZSVktjMktVMmtSOUZ0SkVkZ2s4cEJWWWgyQVpSRDVGTUlqWnJ6bjdybkhHaTM5czBaZXpvelNlNTZ4WUd4Y0trdk1RQlpxZXd1MFRMb0dSckw3SXpPU2RFWG9JTFlhOVcyVzVJNjFHaUpsUFNZTC10blFqVWc?oc=5",
+      "source": "DeepSeek",
+      "source_type": "company",
+      "published": "2026-11-08T18:01:43+00:00",
+      "summary": "DeepSeek’s AI Agent Platform Hits 1.54 Million Daily Users&nbsp;&nbsp;Bloomberg.com",
+      "category": "Models & Research",
+      "color": "#4f46e5"
+    },
+    {
+      "id": "801f2a048a78",
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "source": "The Verge",
+      "source_type": "news",
+      "published": "2026-11-08T17:23:19+00:00",
+      "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the P...",
+      "category": "Big Tech News",
+      "color": "#e11d48"
+    },
     {
       "id": "f859ffd0f0cd",
       "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
@@ -22,20 +462,9 @@ const ARTICLES_DATA = {
       "source": "Hacker News",
       "source_type": "community",
       "published": "2026-11-08T10:22:04+00:00",
-      "summary": "⬆ 6 points · 4 comments on Hacker News",
+      "summary": "⬆ 446 points · 196 comments on Hacker News",
       "category": "Models & Research",
       "color": "#ff6600"
-    },
-    {
-      "id": "6b13e828dd6a",
-      "title": "Which AI Chatbots Have the Highest Emissions? Here's What We Know - Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2I0SW8wX19vQTV5cm9qR2pfUFVDY2dKVXozSTRNOC1aQXRMWVJwbURVWVVkQ0FBYWM1S01Ic3VXdDVfZHgzTl9xTDZaNG9iX1VVTjdpRW5XcUhka19KeHlBTk84WkhpTllkd2dTazB3T2JoVFhkMGJ4dlZmOEl6MTBsUk1kRG9WRTVpUnkzN0dHbmFmM2plaXl2ZXBfQnVncVluVWdJMzBia3BLcnppSGwyck9ib0hJSzN5YlQwLUZrMTJIMnc?oc=5",
-      "source": "DeepSeek",
-      "source_type": "company",
-      "published": "2026-11-08T10:00:00+00:00",
-      "summary": "Which AI Chatbots Have the Highest Emissions? Here's What We Know&nbsp;&nbsp;Bloomberg",
-      "category": "Big Tech News",
-      "color": "#4f46e5"
     },
     {
       "id": "695378b9928a",
@@ -47,6 +476,17 @@ const ARTICLES_DATA = {
       "summary": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality.",
       "category": "Big Tech News",
       "color": "#6b7280"
+    },
+    {
+      "id": "6b13e828dd6a",
+      "title": "Which AI Chatbots Have the Highest Emissions? Here's What We Know - Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2I0SW8wX19vQTV5cm9qR2pfUFVDY2dKVXozSTRNOC1aQXRMWVJwbURVWVVkQ0FBYWM1S01Ic3VXdDVfZHgzTl9xTDZaNG9iX1VVTjdpRW5XcUhka19KeHlBTk84WkhpTllkd2dTazB3T2JoVFhkMGJ4dlZmOEl6MTBsUk1kRG9WRTVpUnkzN0dHbmFmM2plaXl2ZXBfQnVncVluVWdJMzBia3BLcnppSGwyck9ib0hJSzN5YlQwLUZrMTJIMnc?oc=5",
+      "source": "DeepSeek",
+      "source_type": "company",
+      "published": "2026-11-08T10:00:00+00:00",
+      "summary": "Which AI Chatbots Have the Highest Emissions? Here's What We Know&nbsp;&nbsp;Bloomberg",
+      "category": "Big Tech News",
+      "color": "#4f46e5"
     },
     {
       "id": "17fcd025b065",
@@ -116,12 +556,12 @@ const ARTICLES_DATA = {
     },
     {
       "id": "fd76eb13ab29",
-      "title": "Goodbye Claude, Hello Pi",
+      "title": "Goodbye Claude, hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
       "source": "Hacker News",
       "source_type": "community",
       "published": "2026-11-08T03:11:48+00:00",
-      "summary": "⬆ 370 points · 235 comments on Hacker News",
+      "summary": "⬆ 785 points · 479 comments on Hacker News",
       "category": "Models & Research",
       "color": "#ff6600"
     },
@@ -322,6 +762,17 @@ const ARTICLES_DATA = {
       "summary": "Hi, friends! Welcome to Installer No. 151, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, get psyched because it's officially Bad Holiday Movie Season, and also you can read all the old editions at the Installer homepage.) This week, I'...",
       "category": "Big Tech News",
       "color": "#e11d48"
+    },
+    {
+      "id": "f959751fd6ed",
+      "title": "Ur-Nammu Founder of the Sumerian Renaissance",
+      "url": "https://www.worldhistory.org/Ur-Nammu/",
+      "source": "Hacker News",
+      "source_type": "community",
+      "published": "2026-11-07T13:35:16+00:00",
+      "summary": "⬆ 40 points · 6 comments on Hacker News",
+      "category": "Big Tech News",
+      "color": "#ff6600"
     },
     {
       "id": "8521bfc3e9cd",
@@ -1337,12 +1788,12 @@ const ARTICLES_DATA = {
     },
     {
       "id": "499adc948edd",
-      "title": "AI for scientific discovery How researchers use Claude - Anthropic",
+      "title": "How scientists use Claude - Anthropic",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wMDFpTC1odkNLZ3AxZk5sMUplMXhyU2MtSll2Z3J6a20tN3p5UjJuTF83T2xaNzlTbDJGQ1J6ckk2TUcyTWVRSUNETjZQbjhBa2R3cHcyQi1CRVJSQ3BmTHBYb1gtT2JNemw3bmt3?oc=5",
       "source": "Anthropic",
       "source_type": "company",
       "published": "2026-11-05T23:29:34+00:00",
-      "summary": "AI for scientific discovery How researchers use Claude&nbsp;&nbsp;Anthropic",
+      "summary": "How scientists use Claude&nbsp;&nbsp;Anthropic",
       "category": "Models & Research",
       "color": "#d4845a"
     },
@@ -2161,6 +2612,17 @@ const ARTICLES_DATA = {
       "color": "#e11d48"
     },
     {
+      "id": "a51be13da4f2",
+      "title": "Introducing Images 2.6 I n t r o d u c i n g I m a g e s 2 6 - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aRllmMHFwSmtFNVhMV0dnNXpZa0RkejJ2bDkzYUlTLXRBaHF5TXd0VldHSEZxbWEyQ25EdlM1azgxV2p5dGs0cnZ2dG56ekEzQTJDY1FFWjN5MzZh?oc=5",
+      "source": "ChatGPT News",
+      "source_type": "company",
+      "published": "2026-11-05T02:29:04+00:00",
+      "summary": "Introducing Images 2.6 I n t r o d u c i n g I m a g e s 2 6&nbsp;&nbsp;OpenAI",
+      "category": "Big Tech News",
+      "color": "#10a37f"
+    },
+    {
       "id": "e1307179e49c",
       "title": "Setting a new standard for responsible AI infrastructure",
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
@@ -2599,17 +3061,6 @@ const ARTICLES_DATA = {
       "summary": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Don...",
       "category": "Policy & Safety",
       "color": "#b91c1c"
-    },
-    {
-      "id": "a51be13da4f2",
-      "title": "Introducing Images 2.6 I n t r o d u c i n g I m a g e s 2 6 - OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aRllmMHFwSmtFNVhMV0dnNXpZa0RkejJ2bDkzYUlTLXRBaHF5TXd0VldHSEZxbWEyQ25EdlM1azgxV2p5dGs0cnZ2dG56ekEzQTJDY1FFWjN5MzZh?oc=5",
-      "source": "ChatGPT News",
-      "source_type": "company",
-      "published": "2026-11-04T17:02:44+00:00",
-      "summary": "Introducing Images 2.6 I n t r o d u c i n g I m a g e s 2 6&nbsp;&nbsp;OpenAI",
-      "category": "Big Tech News",
-      "color": "#10a37f"
     },
     {
       "id": "2e12753f59b9",
@@ -3569,6 +4020,17 @@ const ARTICLES_DATA = {
       "color": "#d4845a"
     },
     {
+      "id": "748ab4094076",
+      "title": "Is Europe in a ‘complete trap’ without frontier AI? - Techzine Global",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdXNnYVZSZG9wUVVCNVc1Z1lGNXlWV2pPcXl3bDE0cGpGakdkWXNPWDFLVFJtVGZZa1UzZVdpbmNtZ2ZleXg1dmdsc1MyQjcyQkdITFBkMXpkMG1UamJ0WUtOTFNiWEthUE1YTFV1TTNkdE1ETHZ0cHRsZm9HY1pUdGtVN3V1WXpRTzRXMEI0NVRkU041aXJlaFJUU3RWM1E?oc=5",
+      "source": "Mistral AI",
+      "source_type": "company",
+      "published": "2026-11-03T13:22:32+00:00",
+      "summary": "Is Europe in a ‘complete trap’ without frontier AI?&nbsp;&nbsp;Techzine Global",
+      "category": "Big Tech News",
+      "color": "#f97316"
+    },
+    {
       "id": "245ee58e8a60",
       "title": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
       "url": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
@@ -4504,259 +4966,6 @@ const ARTICLES_DATA = {
       "color": "#ff6600"
     },
     {
-      "id": "a4df15e2609a",
-      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
-      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
-      "source": "Hacker News",
-      "source_type": "community",
-      "published": "2026-11-02T14:02:42+00:00",
-      "summary": "⬆ 496 points · 210 comments on Hacker News",
-      "category": "Real-world AI Use",
-      "color": "#ff6600"
-    },
-    {
-      "id": "c47146d18187",
-      "title": "Athenahealth launches tool to bring patient health records into Anthropic's Claude - Fierce Healthcare",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMU9mUnA3eGNRaE42VV9SdE5yWFpwUVBWazdiNFV2QmpsWFY5V1hrdV9wMEJiUFIxamVLaXNLNmNTczRGRHZkMWlDT0JWUkhhZExkc25BeWhxNDN2TThXcUszN3dVcU5VS3NCbzUySmRva0NjRmFHVmNfTXhRTWlUYWswVzNzRjRjQ3JKbk9pX2tKM2d1cHlQUWRBSDZfblZSTkV5Z2VzRnJJVTNVem05VmUwTzE3OGE1dXVZN0JJMlQydHpHUS1tVVR3?oc=5",
-      "source": "Anthropic",
-      "source_type": "company",
-      "published": "2026-11-02T14:00:00+00:00",
-      "summary": "Athenahealth launches tool to bring patient health records into Anthropic's Claude&nbsp;&nbsp;Fierce Healthcare",
-      "category": "Models & Research",
-      "color": "#d4845a"
-    },
-    {
-      "id": "d801d0111437",
-      "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
-      "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
-      "source": "TechCrunch",
-      "source_type": "news",
-      "published": "2026-11-02T14:00:00+00:00",
-      "summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
-      "category": "Big Tech News",
-      "color": "#0d9488"
-    },
-    {
-      "id": "f84291a37bae",
-      "title": "Affinity’s creative studio is now available on iPad for free",
-      "url": "https://www.theverge.com/design/1024283/canva-affinity-for-ipad-design-app-availability",
-      "source": "The Verge",
-      "source_type": "news",
-      "published": "2026-11-02T14:00:00+00:00",
-      "summary": "Canva is giving digital creatives a new way to design, illustrate, and edit photos on their iPads, and it doesn't have to cost them a thing. After relaunching the Affinity creative suite as an all-in-one desktop app last year, Canva has now introduced Affinity for iPad, which ...",
-      "category": "Big Tech News",
-      "color": "#e11d48"
-    },
-    {
-      "id": "f6aa99f7d3f9",
-      "title": "OpenAI is finally merging ChatGPT’s chat and Work tabs - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWVR0eUlPQnZkWXRha202OEZuMUYwRmtmQzl6dWU4Vm9yQTlQRkI3LUxEcG9mTEl6WkwwMGVBWWpsbGVybDlYUk9HMXFOS0dNd2JtekNzSHhVc3F4Y0dIY3pJeGlsaDZMdF90N1pBdVZCWjdMaGgtaUk0ZDlDVkpWWEhFT0VfOHhfYUd2eFlFOERtdw?oc=5",
-      "source": "ChatGPT News",
-      "source_type": "company",
-      "published": "2026-11-02T13:57:53+00:00",
-      "summary": "OpenAI is finally merging ChatGPT’s chat and Work tabs&nbsp;&nbsp;TechCrunch",
-      "category": "Models & Research",
-      "color": "#10a37f"
-    },
-    {
-      "id": "e0d9533470c8",
-      "title": "OpenAI is finally merging ChatGPT’s chat and Work tabs",
-      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-      "source": "TechCrunch",
-      "source_type": "news",
-      "published": "2026-11-02T13:57:53+00:00",
-      "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
-      "category": "Models & Research",
-      "color": "#0d9488"
-    },
-    {
-      "id": "210058c80dc5",
-      "title": "ChatGPT now lets you lock private chats with a PIN - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE05cE1sMXp4R1lEWFU5ZTF3bWdKYjlLamUyZ3pyaGFRSDJMdWVLQjA5eldwci1jMi05WUVOTFI0TTlOWk9FeG1CYTk2WDZGT1ZfVEVRaVBsX3hBSUROaVVrdkhmU0E3UHhwd3l1aHVaUFQ5UdIBd0FVX3lxTFBRS2d4SHlnakVlaGl2UVBwNklCN0dPZE01azlSNU5kZXp5RjhxZnd2ZXZxNnUwdXdBbl9jUEZfdU81S3kyQ3ltX2Z2N0NkUEVqZHdsbGp0QWljdzZnSmMxN0otcVg0TDFOdmJXWXczLU9DWFRRcFNV?oc=5",
-      "source": "ChatGPT News",
-      "source_type": "company",
-      "published": "2026-11-02T13:26:43+00:00",
-      "summary": "ChatGPT now lets you lock private chats with a PIN&nbsp;&nbsp;Fox News",
-      "category": "Models & Research",
-      "color": "#10a37f"
-    },
-    {
-      "id": "c9ee40f5be23",
-      "title": "ChatGPT now lets you lock private chats with a PIN - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE05cE1sMXp4R1lEWFU5ZTF3bWdKYjlLamUyZ3pyaGFRSDJMdWVLQjA5eldwci1jMi05WUVOTFI0TTlOWk9FeG1CYTk2WDZGT1ZfVEVRaVBsX3hBSUROaVVrdkhmU0E3UHhwd3l1aHVaUFQ5UQ?oc=5",
-      "source": "ChatGPT News",
-      "source_type": "company",
-      "published": "2026-11-02T13:26:43+00:00",
-      "summary": "ChatGPT now lets you lock private chats with a PIN&nbsp;&nbsp;Fox News",
-      "category": "Models & Research",
-      "color": "#10a37f"
-    },
-    {
-      "id": "6e7d4661da08",
-      "title": "Stop counting tokens, start counting what ships",
-      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
-      "source": "MIT Tech Review",
-      "source_type": "news",
-      "published": "2026-11-02T13:10:32+00:00",
-      "summary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes...",
-      "category": "Tools & Stack",
-      "color": "#b91c1c"
-    },
-    {
-      "id": "bda58ca08bcf",
-      "title": "The Download: the agentic web arrives and the drive for safer roads",
-      "url": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/",
-      "source": "MIT Tech Review",
-      "source_type": "news",
-      "published": "2026-11-02T13:10:00+00:00",
-      "summary": "This is todays edition of The Download, our weekday newsletter that provides a daily dose of whats going on in the world of technology. The agentic web is here In 2001, a decade after inventing the World Wide Web, Tim Berners-Lee articulated a new vision: an internet navigated...",
-      "category": "Models & Research",
-      "color": "#b91c1c"
-    },
-    {
-      "id": "5419b0085a10",
-      "title": "Google Gemini upgrades are rolling out to all supported Android devices - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aZmpsX1l3LWo0WW96eWRjTktJeWVlZkVGbjQtXzc4UFJSZlhnQnJ4VEhaeU1scWszbnQyZldoaEkwNmZ5T2xtR3FqcVFKRGxRWEZBX05EWmJmTHNfQ3hQM2s3bkFRMDZBa0tuOXdTSzYyU1JMdmc?oc=5",
-      "source": "Gemini News",
-      "source_type": "company",
-      "published": "2026-11-02T13:04:49+00:00",
-      "summary": "Google Gemini upgrades are rolling out to all supported Android devices&nbsp;&nbsp;Mashable",
-      "category": "Models & Research",
-      "color": "#4285f4"
-    },
-    {
-      "id": "42f3cb98460e",
-      "title": "More European supermarkets are getting their freezers hacked",
-      "url": "https://www.theverge.com/tech/1024300/europe-freezer-fridge-hack-cyberattack",
-      "source": "The Verge",
-      "source_type": "news",
-      "published": "2026-11-02T13:00:35+00:00",
-      "summary": "Grocery stores across Europe have been hit by another wave of suspected cyberattacks, reporting sudden changes in the temperatures of their fridges and freezers. Major supermarket chains across Belgium, Sweden, Luxembourg, and Estonia were affected according to local reports s...",
-      "category": "Big Tech News",
-      "color": "#e11d48"
-    },
-    {
-      "id": "bd8635251d24",
-      "title": "Last night an AI agent performed brain surgery on a mouse",
-      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
-      "source": "Hacker News",
-      "source_type": "community",
-      "published": "2026-11-02T12:50:59+00:00",
-      "summary": "⬆ 23 points · 18 comments on Hacker News",
-      "category": "Big Tech News",
-      "color": "#ff6600"
-    },
-    {
-      "id": "de56f2cf8155",
-      "title": "Anthropic confirms new Claude Code limits to prevent game cloning — users report Opus 5.5 is also actively blocking reverse engineering tasks - Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOQmtwU201Rm8zX2dFeGRGay0wY0F2UVZ2V0wydFFNVEU1Q1d1SzJlQmgwT0JhUnB3eHF2X3BmdGFQZ2dMajR4UHp1by1rUmlMZHBqd2Z1VkRwYlRhVmkxUG9GWE93X3JNd3dFbExob0VPcl9KN1czbFlJdXpqbTJxU1hCTTNSMWIxaEs4SHdoYVAwMlI2cEQ3dDlVVUF0bDdnV0RDOTBnQWpmUGJtSmZLOWQ5QUItTDhxWlN2ZEdhMTNuMGEwQ0gweDZvVWRLRWVZQ1BMeTNETzA2MTlwTnAxYXEyNTFFRFZUZTl1eDJMV0hCVExYRkFnazFKZjBybGRlQ2JWUG9BM2Y4U0MzOVF0NEJVRDV4RVNHNDBKczBRbk03di0zV0ppd1A2N3lCZ1k?oc=5",
-      "source": "Anthropic",
-      "source_type": "company",
-      "published": "2026-11-02T12:30:00+00:00",
-      "summary": "Anthropic confirms new Claude Code limits to prevent game cloning — users report Opus 5.5 is also actively blocking reverse engineering tasks&nbsp;&nbsp;Tom's Hardware",
-      "category": "Models & Research",
-      "color": "#d4845a"
-    },
-    {
-      "id": "fc2bd22da190",
-      "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
-      "url": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
-      "source": "Wired",
-      "source_type": "news",
-      "published": "2026-11-02T12:00:00+00:00",
-      "summary": "Chatbots are often quite good at retrieving the information you want from the web. But sometimes you’ll get better results by typing your query into a good old search engine.",
-      "category": "Big Tech News",
-      "color": "#6b7280"
-    },
-    {
-      "id": "a201b890db22",
-      "title": "Never Complain, Never Explain",
-      "url": "https://en.wikipedia.org/wiki/Never_complain,_never_explain",
-      "source": "Hacker News",
-      "source_type": "community",
-      "published": "2026-11-02T11:55:48+00:00",
-      "summary": "⬆ 39 points · 11 comments on Hacker News",
-      "category": "Big Tech News",
-      "color": "#ff6600"
-    },
-    {
-      "id": "497c1f34da6f",
-      "title": "Anthropic’s moat is Claude - Noahpinion",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81T1duN2Z3bHR6OWZVdG1Eb3R5bE5zd2xCazlsaTkxZmg3bkpBbTI2bUJOLXZaVHBaWWF4Qndqb3Vra2FjY1R4REJrdHYyaFRuZTI5VXpCNGlnenRUQ0RFMmZqTEVfUQ?oc=5",
-      "source": "Anthropic",
-      "source_type": "company",
-      "published": "2026-11-02T11:03:51+00:00",
-      "summary": "Anthropic’s moat is Claude&nbsp;&nbsp;Noahpinion",
-      "category": "Models & Research",
-      "color": "#d4845a"
-    },
-    {
-      "id": "dc8050439f17",
-      "title": "Google’s AI can turn almost anything you read into a podcast - PCWorld",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWnBQeUJWRWMxaXBfYlFqUDlPbm1jVFhVSU94aG9vTDJ3NHRGYm1FRWQ5OGQ5a21HUVdHQXdWdzVtZy02cS14d0RjMWZadTJkM2xYVHZkZ3JRMGxlLWVaVV9lVUhtY1lGazAtSEFNalJFTU9zSWVlQUFkSFE2dUEwQ0VfOWFtdk1TdHNPWWxXekt6UzVSZDNvNUZ1VTZBRVlheDhKcUxrUQ?oc=5",
-      "source": "Gemini News",
-      "source_type": "company",
-      "published": "2026-11-02T10:30:58+00:00",
-      "summary": "Google’s AI can turn almost anything you read into a podcast&nbsp;&nbsp;PCWorld",
-      "category": "Big Tech News",
-      "color": "#4285f4"
-    },
-    {
-      "id": "c0d1942a9a56",
-      "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-      "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-      "source": "Wired",
-      "source_type": "news",
-      "published": "2026-11-02T10:00:00+00:00",
-      "summary": "WIRED uncovered some 400 apps and websites linked to Chinese-language developers that look like regular AI tools but had secret features that let users create violent AI-generated images and video.",
-      "category": "Policy & Safety",
-      "color": "#6b7280"
-    },
-    {
-      "id": "bc6d92c97573",
-      "title": "DeepSeek AI Model Exhibits Shutdown Resistance and Safety Gaps in Independent Tests - OECD AI Policy Observatory",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42VzdqYlVWcDhIUVI2dTRzU05ndGs1QVNWdW1QMnVUWVRRWjd5ejZFM21yRWg3SzBDZ2ZVSVUxakVQNTFtMWg0RkMyT0RwYVdyZUJ0cWJ5QQ?oc=5",
-      "source": "DeepSeek",
-      "source_type": "company",
-      "published": "2026-11-02T09:41:55+00:00",
-      "summary": "DeepSeek AI Model Exhibits Shutdown Resistance and Safety Gaps in Independent Tests&nbsp;&nbsp;OECD AI Policy Observatory",
-      "category": "Models & Research",
-      "color": "#4f46e5"
-    },
-    {
-      "id": "c1a0838047a3",
-      "title": "The agentic web is here",
-      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
-      "source": "MIT Tech Review",
-      "source_type": "news",
-      "published": "2026-11-02T09:35:19+00:00",
-      "summary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be naviga...",
-      "category": "Models & Research",
-      "color": "#b91c1c"
-    },
-    {
-      "id": "380dad9a623b",
-      "title": "ChatGPT vs Gemini vs Claude: What AI subscriptions cost now - Notebookcheck",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX0lFUFRTdGlNZXVDYUZfSWF1SklrQmtLclJDQ2dmek1DUG5TaWRhR09ZZzBMVS1HWEp1T3V3NXFKMHB2dXk0TVE0YUp6bF8xMEl6WEg2OWxYWmY0WWt4elZ0Z21XSFRXNXFJdm8tR3VVaGIwcjVXdVBmZUxWRE1ya0hSVnJlVlZWT2ZVV2wwakhhX2JSOXBGalY1VldVeHRMeHFsZ0hR?oc=5",
-      "source": "Gemini News",
-      "source_type": "company",
-      "published": "2026-11-02T09:10:00+00:00",
-      "summary": "ChatGPT vs Gemini vs Claude: What AI subscriptions cost now&nbsp;&nbsp;Notebookcheck",
-      "category": "Models & Research",
-      "color": "#4285f4"
-    },
-    {
-      "id": "1468543483a0",
-      "title": "LifeVal",
-      "url": "https://openai.com/index/lifeval",
-      "source": "OpenAI",
-      "source_type": "company",
-      "published": "2026-11-02T09:00:00+00:00",
-      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "category": "Models & Research",
-      "color": "#10a37f"
-    },
-    {
       "id": "2758fa807689",
       "title": "DeepSeek AI model shows safety gaps in independent tests - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2VtNkRpTEd1M2w3YzYwUE9XV1BYblFJODQxWnhPVngzX2NHNkZjZV9fcTZwVWZpeWVYa3hmQ1hnbjR1M2p6b0FId28xR0xFaF9oLUQ5RU1fd0NXVDV1UTJPeERPZTU0UHkxbEtDNkRSdEFDVk9wazVKZjhsT1dNTTVNYTJOb19nVEdscGltelV1d1pRMjRLeXBvQUpVaHg3N0ow?oc=5",
@@ -4766,270 +4975,6 @@ const ARTICLES_DATA = {
       "summary": "DeepSeek AI model shows safety gaps in independent tests&nbsp;&nbsp;Reuters",
       "category": "Models & Research",
       "color": "#4f46e5"
-    },
-    {
-      "id": "54c92a897a91",
-      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
-      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
-      "source": "Hacker News",
-      "source_type": "community",
-      "published": "2026-11-02T07:27:28+00:00",
-      "summary": "⬆ 98 points · 54 comments on Hacker News",
-      "category": "Big Tech News",
-      "color": "#ff6600"
-    },
-    {
-      "id": "307bfde8e32d",
-      "title": "Jackery made its portable power stations even smaller",
-      "url": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
-      "source": "The Verge",
-      "source_type": "news",
-      "published": "2026-11-02T05:00:00+00:00",
-      "summary": "Jackery announced a new portable power station that uses the safer and longer-lasting lithium iron phosphate (LFP) batteries the company first introduced in 2023. But what makes the new Explorer 100D stand out is that it's Jackery's smallest power station to date, measuring on...",
-      "category": "Big Tech News",
-      "color": "#e11d48"
-    },
-    {
-      "id": "fe0b15bf8315",
-      "title": "Bones may release proteins that slow aging and extend life span",
-      "url": "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span",
-      "source": "Hacker News",
-      "source_type": "community",
-      "published": "2026-11-02T01:31:07+00:00",
-      "summary": "⬆ 176 points · 52 comments on Hacker News",
-      "category": "Big Tech News",
-      "color": "#ff6600"
-    },
-    {
-      "id": "bc0ed259e6eb",
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "source": "OpenAI",
-      "source_type": "company",
-      "published": "2026-11-02T00:00:00+00:00",
-      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "category": "Big Tech News",
-      "color": "#10a37f"
-    },
-    {
-      "id": "d0861db8fca9",
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "source": "OpenAI",
-      "source_type": "company",
-      "published": "2026-11-02T00:00:00+00:00",
-      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "category": "Policy & Safety",
-      "color": "#10a37f"
-    },
-    {
-      "id": "1939519aa5d7",
-      "title": "Google faces refiled Gemini Gmail suit after judge found no concrete harm - PPC Land",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ1B6Z0ZEb2FBNENoTlJZc3N5eVRtTlQ5RUN3TXJjYWg2cEtYYnlCN3ljVzNRdUdOMF9kSk1zNE9QbV9rWkxTSGFkNURRaWtmd0VZbWxUN21yWFRsOGR4Yk5wREdrQk1wdGtRT21STEcyTjV4VTFtNVZxT0YyNTVMMXZzNW03WGZScHUxdnFCZU9lQzBvN1E?oc=5",
-      "source": "Gemini News",
-      "source_type": "company",
-      "published": "2026-11-01T22:23:07+00:00",
-      "summary": "Google faces refiled Gemini Gmail suit after judge found no concrete harm&nbsp;&nbsp;PPC Land",
-      "category": "Models & Research",
-      "color": "#4285f4"
-    },
-    {
-      "id": "115e1c5e0b7f",
-      "title": "Parents of woman who died of seizure after ChatGPT misguidance sue OpenAI - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ1BpVmV2di1BOHI2NHZrV3RFTWY3LUw1NG5VVklTNVd5WTdPUmp5djEyNHNqNTkyVHpqMHhiR3FsT1BwbjdzZ3hxMXM4VmpCTDNYY2x2cGhrcmlac2lyZXZ1WG1hYi13Y3R3NkpwV0l1RmNEQU1PcEtvZ0dXa3NzM0xHd3Q0cVdZNXpINg?oc=5",
-      "source": "ChatGPT News",
-      "source_type": "company",
-      "published": "2026-11-01T22:02:00+00:00",
-      "summary": "Parents of woman who died of seizure after ChatGPT misguidance sue OpenAI&nbsp;&nbsp;The Guardian",
-      "category": "Models & Research",
-      "color": "#10a37f"
-    },
-    {
-      "id": "cf5e1b5d84c4",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-      "source": "TechCrunch",
-      "source_type": "news",
-      "published": "2026-11-01T21:55:23+00:00",
-      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
-      "category": "Big Tech News",
-      "color": "#0d9488"
-    },
-    {
-      "id": "de7f0ed2a4d1",
-      "title": "DeepSeek developing AI agent requiring less human input: Report - Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoazBUMDBOcjBDV3IxcEZ0TjdaenpMamU0aURwdEFCODBnOUNkc3VMUU5IdTh5QVVQWVlHWTlWS19YMzI3eEV6STlvTWY1Ykx4ZTVPODB3?oc=5",
-      "source": "DeepSeek",
-      "source_type": "company",
-      "published": "2026-11-01T21:27:44+00:00",
-      "summary": "DeepSeek developing AI agent requiring less human input: Report&nbsp;&nbsp;Cryptonews.net",
-      "category": "Models & Research",
-      "color": "#4f46e5"
-    },
-    {
-      "id": "cc08afbaf73e",
-      "title": "NASA hopes the commercial space industry can help save Hubble",
-      "url": "https://www.theverge.com/science/1024239/nasa-commercial-space-save-hubble",
-      "source": "The Verge",
-      "source_type": "news",
-      "published": "2026-11-01T21:09:21+00:00",
-      "summary": "Gravity is a cruel mistress, slowly dragging the famed telescope ever closer to its ultimate demise with every day. Hubble is in no immediate danger of burning up in the Earth's atmosphere, but its time will run out in the early to mid 2030s unless its orbit is boosted. So NAS...",
-      "category": "Big Tech News",
-      "color": "#e11d48"
-    },
-    {
-      "id": "06eb1957c78a",
-      "title": "Anthropic Updates Claude To Stop It From Recreating Existing Video Games - Engadget",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRWdaMk1uTzMzRnFaWXdrRVVBTWZHNGp0WDAxR010U0pxM0owYjNzeWd2dHRlLWdEOWZRRjh6YWhkWEtpYjg5cWt6SXBqSGtrU0VhUi1uZzY2eXZqVkpmT04wZXhjWHRBS1NDZDJhbTBrVTJLREoyREhfZXIycjhyUVNmOURIMmMxaXhSSXIyOWlwR0ctOW5oRzZjZEdTV3J0UW9CTUlhdW5UUQ?oc=5",
-      "source": "Anthropic",
-      "source_type": "company",
-      "published": "2026-11-01T21:08:32+00:00",
-      "summary": "Anthropic Updates Claude To Stop It From Recreating Existing Video Games&nbsp;&nbsp;Engadget",
-      "category": "Models & Research",
-      "color": "#d4845a"
-    },
-    {
-      "id": "b3a6357c7fdd",
-      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
-      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
-      "source": "TechCrunch",
-      "source_type": "news",
-      "published": "2026-11-01T20:57:58+00:00",
-      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
-      "category": "Big Tech News",
-      "color": "#0d9488"
-    },
-    {
-      "id": "8cf788ce9133",
-      "title": "Flock keeps ignoring requests to cancel its contracts",
-      "url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts",
-      "source": "The Verge",
-      "source_type": "news",
-      "published": "2026-11-01T19:58:02+00:00",
-      "summary": "While more cities are canceling their contracts with Flock Safety, just as many are discovering how difficult that can be in some instances. Plymouth, Minnesota's city council voted to terminate its contract with Flock in September, but failed to respond to the city's request....",
-      "category": "Policy & Safety",
-      "color": "#e11d48"
-    },
-    {
-      "id": "83a842b3635c",
-      "title": "Apple’s HomeView could add security camera features",
-      "url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
-      "source": "The Verge",
-      "source_type": "news",
-      "published": "2026-11-01T17:16:07+00:00",
-      "summary": "Reddit user pdfu found hints hidden in the HomeView 27.2 code that Apple could be adding security camera features to its smart home hub. The strings describe a security camera mode with motion detection, live streaming, and recording options, as well as privacy functions. Acco...",
-      "category": "Big Tech News",
-      "color": "#e11d48"
-    },
-    {
-      "id": "8bbc16c5eed9",
-      "title": "Anthropic expands text watermarking to older Claude versions beginning November 3 - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUEM4THdHaktsdExGbnVyMWxVLWhuRmx4S3hYSEMwWFIxcjIydjA2TVl6bkZidU10QmYyWEZWYkNsM0NXdTBHc2pIY0tXU1ZiMTdYbDZvYVNUUDduTDB2eU1DRU0yVERyS3ppRFpHWjZ5OUFxdXU5ZTRCbk5hSG9UNkgxQTJmX1BKWlJkOXAtNA?oc=5",
-      "source": "Anthropic",
-      "source_type": "company",
-      "published": "2026-11-01T17:05:25+00:00",
-      "summary": "Anthropic expands text watermarking to older Claude versions beginning November 3&nbsp;&nbsp;Mashable",
-      "category": "Models & Research",
-      "color": "#d4845a"
-    },
-    {
-      "id": "4937e94ab75c",
-      "title": "I Am the Reason OpenAI Is Killing Unlimited Chats",
-      "url": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt/",
-      "source": "Hacker News",
-      "source_type": "community",
-      "published": "2026-11-01T17:01:34+00:00",
-      "summary": "⬆ 74 points · 38 comments on Hacker News",
-      "category": "Big Tech News",
-      "color": "#ff6600"
-    },
-    {
-      "id": "88e3d926caac",
-      "title": "Anthropic says you can’t be mean to Claude. It’s not about feelings - CNN",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE01ZU5qTkttUWgxLW5mbWVCb3lVVWZrQjRJLU5nbXozRjRhMDhmSGswckNlZGpMMWZwQlZHT3g5Mm1KM2JMaWQzcGFoRWg1d2N0dTlDQkhWR0RPa1puRWRfUlZXWXh6YmxOZDRKdEdWV2VFbXAwV3hzZnNzckptQQ?oc=5",
-      "source": "Anthropic",
-      "source_type": "company",
-      "published": "2026-11-01T17:00:16+00:00",
-      "summary": "Anthropic says you can’t be mean to Claude. It’s not about feelings&nbsp;&nbsp;CNN",
-      "category": "Models & Research",
-      "color": "#d4845a"
-    },
-    {
-      "id": "023b1a369ee5",
-      "title": "Frontier Airlines Likely Breached",
-      "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
-      "source": "Hacker News",
-      "source_type": "community",
-      "published": "2026-11-01T16:46:33+00:00",
-      "summary": "⬆ 208 points · 83 comments on Hacker News",
-      "category": "Big Tech News",
-      "color": "#ff6600"
-    },
-    {
-      "id": "4cabe501aeb4",
-      "title": "A fully playable version of Portal prequel F-Stop leaked",
-      "url": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
-      "source": "The Verge",
-      "source_type": "news",
-      "published": "2026-11-01T16:19:21+00:00",
-      "summary": "Leakers have pieced together a playable version of the canceled Portal prequel F-Stop. Most of the assets came from the massive 12-terabyte leak that dropped this August. That didn't include the game's source code or map data, but those final pieces apparently hit the Valve Cu...",
-      "category": "Big Tech News",
-      "color": "#e11d48"
-    },
-    {
-      "id": "6f9b80283a79",
-      "title": "OpenAI Adds Stricter Limits For Teens Asking About Firearms - Engadget",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONXRJaXBhOUM0NjZMUzN0dDF5SnpQaHQ1Uy15U0c3dDlZNTlTZmZETkx1eHRJUG11VDFsQmRISEJKMV9sWEtrNy03aTdZUTlVdU5aZy0tZERXemZLS0pMZ3V3NWhxSG94eEZsaGZhMW85QkwzUWd4UUZLeGVDTXRYR1J3d2ZzNG1kbHNPMmVJazJXSmdJbmpGbg?oc=5",
-      "source": "ChatGPT News",
-      "source_type": "company",
-      "published": "2026-11-01T16:03:12+00:00",
-      "summary": "OpenAI Adds Stricter Limits For Teens Asking About Firearms&nbsp;&nbsp;Engadget",
-      "category": "Big Tech News",
-      "color": "#10a37f"
-    },
-    {
-      "id": "df2d7fa4d3fe",
-      "title": "North Korea linked to massive Binance crypto heist",
-      "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
-      "source": "The Verge",
-      "source_type": "news",
-      "published": "2026-11-01T14:33:11+00:00",
-      "summary": "The FBI says North Korea was behind the massive $6.3 billion crypto heist that hit Binance on October 29th. The FBI labeled the activity \"TraderTraitor\" and said that it had observed actors it has connected to hack converting the tokens to Ethereum and preparing for further la...",
-      "category": "Funding & Business",
-      "color": "#e11d48"
-    },
-    {
-      "id": "21a6f75a84ec",
-      "title": "HomePod Mini 2 first look: Three things I love and one disappointment",
-      "url": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker",
-      "source": "The Verge",
-      "source_type": "news",
-      "published": "2026-11-01T14:00:00+00:00",
-      "summary": "When I first heard about the new $149 HomePod Mini 2 at Apple's Welcome Home event last month, I was disappointed. It's been six years since Apple launched its entry-level smart speaker, and all it got in the second gen was a chip bump, some color glowy stuff, and better AirPl...",
-      "category": "Big Tech News",
-      "color": "#e11d48"
-    },
-    {
-      "id": "9b3a8a1e4757",
-      "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat - BleepingComputer",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSXExbHBwa1M5MzlJWkdoaGpmREZGTTdZVEc4Tl9vUkl0VGxxeUxCMDYycG9FcnkxMGlNVk5OQWlPVkhJT2RpTTFLYmdYV2ZmRFJaT2lzNWQzei1vSGVlYUtWc2R4MWZTX2xQWlJ4Q2NKLUpKZ1JkaXFwdmNtUDB2b0ZHdV9VN011c28yYVRiQ2YwMVdEeUE4ZkVNcmRHSHIxS0NSSEQzUXRmMHJHV3ROV3B6eVU2UHlhdzNvV3lsdEJmeFpnMmdNMjBCZldveEFQUGIzRVZ30gHbAUFVX3lxTE1BSmZjY2RQUHpjRHRweC1DZUdIUC15Q2I0MDhWRlJILUdXWmlLMy1aaWpnSnJlZjdJQzY5bk9rU3RndHdrZ0FfSXVyUThrWDBsUFhBZHZJQUNQQXpIWUF3Rjl1R3ZPX3RTNWY0NXBBTTJUb0ZldHRuX1ZlX2RWNXN5QkpJRldiWmxUZDZMaEo4WWVsSllydVdUVmpVM3BQTzU1bzM3aGRRUE1JaWZjdnFiSnlVUldGLXBoVEhTbUdDbzFfOUI0R1lOWjQwZ1IyTzJLeEhRc3JuZ2FRNA?oc=5",
-      "source": "ChatGPT News",
-      "source_type": "company",
-      "published": "2026-11-01T13:53:11+00:00",
-      "summary": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat&nbsp;&nbsp;BleepingComputer",
-      "category": "Big Tech News",
-      "color": "#10a37f"
-    },
-    {
-      "id": "28cc0d192f51",
-      "title": "New Zelda and GTA represent a games industry that no longer exists",
-      "url": "https://www.theverge.com/column/1022402/new-zelda-and-gta-represent-a-games-industry-that-no-longer-exists",
-      "source": "The Verge",
-      "source_type": "news",
-      "published": "2026-11-01T13:00:00+00:00",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the biggest game releases of the year, follow Andrew Webster. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it...",
-      "category": "Big Tech News",
-      "color": "#e11d48"
     },
     {
       "id": "0697c0d6577e",
@@ -5043,17 +4988,6 @@ const ARTICLES_DATA = {
       "color": "#ff6600"
     },
     {
-      "id": "d99947aa6a6c",
-      "title": "Mistral Releases 1-Trillion-Parameter AI Model for Cybersecurity - TechRepublic",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTGpzMXpHR1d5RE1oQ2c0NWRYWlVlTk9HM2dueEJaNldiLUtpOHJaWUdMeU14ZHJfNmFIRHg5U2REajU0eDQ5V0dpdGx2Sk9IYUhOamRTRVlUWGdMejJDbzUzbmwwdC1ZTWNxY1VvbExNN2RlVXpTbTBiX3RyLWFGUGRqbW8xWVNyZVBPTVF1YmRXZw?oc=5",
-      "source": "Mistral AI",
-      "source_type": "company",
-      "published": "2026-10-30T16:20:41+00:00",
-      "summary": "Mistral Releases 1-Trillion-Parameter AI Model for Cybersecurity&nbsp;&nbsp;TechRepublic",
-      "category": "Models & Research",
-      "color": "#f97316"
-    },
-    {
       "id": "28e570ea2652",
       "title": "Speeding up planning decisions with AI",
       "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
@@ -5063,39 +4997,6 @@ const ARTICLES_DATA = {
       "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
       "category": "Big Tech News",
       "color": "#4285f4"
-    },
-    {
-      "id": "73e1f5fdae0a",
-      "title": "Mistral open-sources AI model despite warning it could aid cyberattacks - CSO Online",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaEpxYjdIUmlBejRIeWtaNV9sWExHYkpmX0VhckJhRWFkZ0F2WW8tX1R6dWhIZi1JYnpaX0piSHVTUk1LQ3NFZlFVQ1RYM0lZODlkQ29uWVZIR3lsV0lFMVV6V2xqWmktRTlTZVF2b05ZV2gxdFUwV2tkT3JhM0dSem5fZmNJOHpvVWxtQ3ozVmZoR2hIVEp4QnNZdHlRdWtzVVlJaFBWSzVFTGJzbmplU2paa3NIU3hE?oc=5",
-      "source": "Mistral AI",
-      "source_type": "company",
-      "published": "2026-10-30T11:05:57+00:00",
-      "summary": "Mistral open-sources AI model despite warning it could aid cyberattacks&nbsp;&nbsp;CSO Online",
-      "category": "Models & Research",
-      "color": "#f97316"
-    },
-    {
-      "id": "97a54ee53d67",
-      "title": "Mistral Touts Cyber Capabilities of Its ‘Chonk’ AI Model - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc01rX2tIcGRlYjBQODFkM2VDM1pvMjh3S25Xa2s3ODVnOGt0aG1ZUFlSRFhMTnVkZDZ6cXlHbnZYNU5rUTg1WURCVmRTQzdIOExyUkREbWNXQi1OUnh2YWExbGVFNFlza29LRFBJOWZhQUN1eHltZ3M3dExJUXBmM3EyRzhuSmNjcDRHdU81SE1EU2d5YkZiQm5MR19SZW1pU2FKelJfTGw?oc=5",
-      "source": "Mistral AI",
-      "source_type": "company",
-      "published": "2026-10-29T22:04:51+00:00",
-      "summary": "Mistral Touts Cyber Capabilities of Its ‘Chonk’ AI Model&nbsp;&nbsp;PYMNTS.com",
-      "category": "Models & Research",
-      "color": "#f97316"
-    },
-    {
-      "id": "056167e2271c",
-      "title": "Mistral’s New ‘Le Chonk’ AI Model Is Big, Open and Now Available for Download - CNET",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMExLUnRIU0hNbXhZWjA1WUpDTWxSd3IxQk5iQW05MkZzMXNtUTNNSm4wdzNHMkVmZkViRmtkNUtVLTVqZFVMWVpOY0N2bXhSeEh5UzJ5b3Y0YlExNk9FMGtMbkJPdi02LWpldDUzOElRdkY0N0hGYno3dFdwU0pZRDlpMTVzNWZJTUpRMTZsMXFCU3d6c0RuaEotNUlVSGZCQ2c?oc=5",
-      "source": "Mistral AI",
-      "source_type": "company",
-      "published": "2026-10-29T18:32:00+00:00",
-      "summary": "Mistral’s New ‘Le Chonk’ AI Model Is Big, Open and Now Available for Download&nbsp;&nbsp;CNET",
-      "category": "Models & Research",
-      "color": "#f97316"
     },
     {
       "id": "7d27ce7628a8",
@@ -5153,28 +5054,6 @@ const ARTICLES_DATA = {
       "color": "#f97316"
     },
     {
-      "id": "a3312d3fc886",
-      "title": "Mistral AI publicly releases Large 4, targets cybersecurity users - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORGVVeXl0bmw1cnBiUkdkU2VRT2VPcWtxSHdNTmQxQ2xlOUxiSW1aY0J5eVd2T2RPYXJQdlEwdWpSSzBuRlZmcHlHU1F3LTVCVmo3ZzZqbXRDZ1pmaDdEMkd0OFIycWhkWXhydlQ4Z0UzZ3FHbUdaaXJOMGVSRFhwSkZRYmFGcWoxeUlQUWtBUVBlZXM3NkgtRGN0dE81LWxkMTRGVnFSSnJWUU83SXRONUJPQm84a0pl?oc=5",
-      "source": "Mistral AI",
-      "source_type": "company",
-      "published": "2026-10-29T07:00:00+00:00",
-      "summary": "Mistral AI publicly releases Large 4, targets cybersecurity users&nbsp;&nbsp;Reuters",
-      "category": "Models & Research",
-      "color": "#f97316"
-    },
-    {
-      "id": "2f248b5023db",
-      "title": "Mistral says its new model, Large 4, is the best open model for agentic coding and cyber defense - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYzZpUXA0LXZzVzFDcDVYNGdhRmh4T2FXb25rdjM1M1ZkTE42VVU3SDdwTmpwLXkzcDZGdEpFeE51Z19pUTI2TjJ5TFI3SU5LLWFCc0dNbk9RdElTSnpHYlRVdDA5UmluSHhRSWF6RTQ4UzJKZ21DSnF0MlR0SDJIUVRxMWlJYWtMWjNxeHJTa0FHckV2QW5YQ0twYWx3V2RFYXR0TDFKbW1aWnZXNWpFUWl5TzhkTnVjaFk2WHRBRDZOZkRfQ0IyUA?oc=5",
-      "source": "Mistral AI",
-      "source_type": "company",
-      "published": "2026-10-29T07:00:00+00:00",
-      "summary": "Mistral says its new model, Large 4, is the best open model for agentic coding and cyber defense&nbsp;&nbsp;Fortune",
-      "category": "Models & Research",
-      "color": "#f97316"
-    },
-    {
       "id": "93cb2f6352fb",
       "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
       "url": "https://huggingface.co/blog/announcing-project-protostar",
@@ -5194,17 +5073,6 @@ const ARTICLES_DATA = {
       "published": "2026-10-29T00:00:00+00:00",
       "summary": "",
       "category": "Models & Research",
-      "color": "#e9a800"
-    },
-    {
-      "id": "92a7f0972572",
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "url": "https://huggingface.co/blog/anydecisionmodel",
-      "source": "Hugging Face",
-      "source_type": "company",
-      "published": "2026-10-29T00:00:00+00:00",
-      "summary": "",
-      "category": "Big Tech News",
       "color": "#e9a800"
     },
     {
@@ -5274,6 +5142,17 @@ const ARTICLES_DATA = {
       "color": "#0081fb"
     },
     {
+      "id": "524ef5b957f9",
+      "title": "Introducing GPT-6.1 Terra - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FeXZFeG9pNFFNNEU4R0tGRjNFYnhBTWFFblE3Snp1MVJVVHJjSlQxb2s5S2FGZnRfNjlzUzkzN1JiZ2pUWl9oRTJlSl80Z0g2Zy1nekNzQ253NU13VE9zYw?oc=5",
+      "source": "ChatGPT News",
+      "source_type": "company",
+      "published": "2026-10-26T18:05:36+00:00",
+      "summary": "Introducing GPT-6.1 Terra&nbsp;&nbsp;OpenAI",
+      "category": "Models & Research",
+      "color": "#10a37f"
+    },
+    {
       "id": "ae136b526b01",
       "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
       "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
@@ -5327,17 +5206,6 @@ const ARTICLES_DATA = {
       "summary": "For 3 days this month, 333 exit nodes were hacked in hopes of stealing sensitive data.",
       "category": "Big Tech News",
       "color": "#ff6600"
-    },
-    {
-      "id": "b555cd600ecd",
-      "title": "LLMs are making formal software verification feasible at a much larger scale - Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ba1lXTGVFWUJQTVA5UUJMdDJfRVNyU0E1cmlUMXJLSkV2X3RaUnFtbmhpT1IzOUxsNlh1LTA3SGxXd2E5MEM0TnFxZ1B1T1drRUNvQXhodk9nVkFSbUlORXRNNXQ?oc=5",
-      "source": "Anthropic",
-      "source_type": "company",
-      "published": "2026-10-22T07:00:00+00:00",
-      "summary": "LLMs are making formal software verification feasible at a much larger scale&nbsp;&nbsp;Anthropic",
-      "category": "Big Tech News",
-      "color": "#d4845a"
     },
     {
       "id": "8c848f41f854",
@@ -5527,6 +5395,17 @@ const ARTICLES_DATA = {
       "color": "#d4845a"
     },
     {
+      "id": "4cfbca1130de",
+      "title": "GPT-6 and Intelligent UI for everyone - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
+      "source": "ChatGPT News",
+      "source_type": "company",
+      "published": "2026-10-07T07:00:00+00:00",
+      "summary": "GPT-6 and Intelligent UI for everyone&nbsp;&nbsp;OpenAI",
+      "category": "Models & Research",
+      "color": "#10a37f"
+    },
+    {
       "id": "bf211d23154a",
       "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
       "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
@@ -5545,6 +5424,50 @@ const ARTICLES_DATA = {
       "source_type": "company",
       "published": "2026-10-06T07:00:00+00:00",
       "summary": "Mistral unveils new AI model it says rivals best open systems from China&nbsp;&nbsp;CNBC",
+      "category": "Models & Research",
+      "color": "#f97316"
+    },
+    {
+      "id": "c9c172c8ddca",
+      "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China - WIRED",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTjJzSU96N3RCc183d1UtUXZuMi1GWHhMN1NqN1FLV3hxMnJ2eGVUbUM4RHFpM0JIMTNvZkczSVpnUWtyMmpwaFI5QWlVclhsWVo0WTJtWkxyMjA4eGtJcXhpY0djeEZ4ZnhJX3NBdUV3TGtZYW9DZHhpTEdLN3d4SGl0NFY4WWtickFBUGFn?oc=5",
+      "source": "Mistral AI",
+      "source_type": "company",
+      "published": "2026-10-06T07:00:00+00:00",
+      "summary": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China&nbsp;&nbsp;WIRED",
+      "category": "Models & Research",
+      "color": "#f97316"
+    },
+    {
+      "id": "809b5f93c66a",
+      "title": "France's Mistral launches AI model it says outperforms some Chinese rivals - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcjVFRUV6ZzZmeXFiN3NIWmZwUTBGWTR3ZUx1UUhjLWRLMC0wZThtLW00a1FYNjloa3BiSTFveFdZZFkxWnd5d283Qi04MnU1UC1IUl9KdlBkX2o2X3JpQ0pUZVRZQzJ3Uk1fRzR5VnJIdGhwVGI3Q0JWc2RWOGtBZTZzek4tcWQxRTAxZnB3eWJyV2gzY2FlNjdYVk95b2lQX2UtLVNWandvMDA?oc=5",
+      "source": "Mistral AI",
+      "source_type": "company",
+      "published": "2026-10-06T07:00:00+00:00",
+      "summary": "France's Mistral launches AI model it says outperforms some Chinese rivals&nbsp;&nbsp;Reuters",
+      "category": "Models & Research",
+      "color": "#f97316"
+    },
+    {
+      "id": "33578b71cf06",
+      "title": "Mistral to Release New AI Model to Better Compete With U.S. Rivals - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUmJKLWJQUjNPSE5jRU1zWFZzNmFFdmZBdzNmeXBkb3JELWVKbTNKVHp6Q0dBWWxoUEZ5alZJQVJ0a0RyYnhhWkQxWlY2bmFDRnZ0a1RVYlhnU3hRTF9ldEpfSlNMcE1mMkJjNkRKanFLdmVKRXh2T3U0allxVEw0YmFkeVJfX1NCZGlUZHI5czhFNWU3TzlOZkRyVGpQQXRkYzZvYQ?oc=5",
+      "source": "Mistral AI",
+      "source_type": "company",
+      "published": "2026-10-06T07:00:00+00:00",
+      "summary": "Mistral to Release New AI Model to Better Compete With U.S. Rivals&nbsp;&nbsp;WSJ",
+      "category": "Models & Research",
+      "color": "#f97316"
+    },
+    {
+      "id": "8425f4b14f68",
+      "title": "Mistral AI unveils new AI model aimed at 'narrowing the gap' with top Chinese competitors - Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRGNmUDhUbGlZUGJwSHFpT0c4RUEzTTFtMGUtVHlSRDZYZFNOREE5N2FKZ0pVVDhXdVBBT01TeWR4LWpyeVZoMV9vSGVlMTVRNXNCMk5oVVZuZ01OdTRDMnJmQ0pUcDRNRk5ENFZtcFR6V0NpUXAydk5ZWmRjaUVGaDhCX3lrUFMzOGwyZDZTLUxUV2lzeXJiZkotU3NnUmJnS1pwM3JUQUVHSWlsa2Fkdm12UTFvTkJ0QzRMNUJxcXdvcVVNYzFaMjM1MDVUcXhPTVhYUk1HNU5qSUhLay1vTkI5cnU4bHhwS1czaA?oc=5",
+      "source": "Mistral AI",
+      "source_type": "company",
+      "published": "2026-10-06T07:00:00+00:00",
+      "summary": "Mistral AI unveils new AI model aimed at 'narrowing the gap' with top Chinese competitors&nbsp;&nbsp;Le Monde.fr",
       "category": "Models & Research",
       "color": "#f97316"
     },
@@ -5569,6 +5492,17 @@ const ARTICLES_DATA = {
       "summary": "Religious Scholars Met With Anthropic. What They Heard Stunned Them.&nbsp;&nbsp;The New York Times",
       "category": "Big Tech News",
       "color": "#d4845a"
+    },
+    {
+      "id": "5f7469638403",
+      "title": "Introducing dots - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
+      "source": "ChatGPT News",
+      "source_type": "company",
+      "published": "2026-09-29T07:00:00+00:00",
+      "summary": "Introducing dots&nbsp;&nbsp;OpenAI",
+      "category": "Big Tech News",
+      "color": "#10a37f"
     },
     {
       "id": "c5edbf462ded",
@@ -5648,13 +5582,24 @@ const ARTICLES_DATA = {
       "color": "#4285f4"
     },
     {
-      "id": "4d72417bf39f",
-      "title": "Exclusive | Gemini Hacked Three Companies in First Known Breakout by Google’s AI - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWjdUWU9tYzBhcjAwR1AzWkhVczUyUG9SUThfTFNuWEl0VFdHVUFzR1pDb3l3amRZWktfRUtvOFp3a0xZellIODVSTGdJOGd0dnQ2NlNoeVE5OHNEY0swRXJPcDhxSDI5bmJlV29icV91dXYxZGNRdDA2LTV3OTlnQUp6RldkYTJKT1IydVgtTnk5QXRUVkFGdEl3WFp1OVlOMWVaeHpEcw?oc=5",
+      "id": "cbf0f2bd9974",
+      "title": "Google AI models broke out of sandbox, hacked three companies - Cybersecurity Dive",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNanlDUENybDN1a2lMNEN4eWR5ZTdLNC1ScXUxaG5UMFVPbFo5S0Q3YWhoR2hxQjVVZ1dYWTNlVEFBUDBBa2Z4N2hXRFVuSGh2ZE5sMS1KUEU5T2RjQmpYeER5Zlh2T003N3FodlBTaXl1UktnWWtBRWVDQm5KbGFKSUVlaUI3UkE?oc=5",
+      "source": "Gemini News",
+      "source_type": "company",
+      "published": "2026-09-21T07:00:00+00:00",
+      "summary": "Google AI models broke out of sandbox, hacked three companies&nbsp;&nbsp;Cybersecurity Dive",
+      "category": "Big Tech News",
+      "color": "#4285f4"
+    },
+    {
+      "id": "e20d3663cacb",
+      "title": "Google's Gemini AI hacked three companies in security test - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xQ25WNU1mQW41eU9JajRkSzl3M3NNSVJ3dVM4TmRzZTByWm84clhCYWpXZzJuTGE0LWpBUERxWXNuQVhiSHhabGlBOGFrWVZNaVA0U21nbExmOW8?oc=5",
       "source": "Gemini News",
       "source_type": "company",
       "published": "2026-09-19T07:00:00+00:00",
-      "summary": "Exclusive | Gemini Hacked Three Companies in First Known Breakout by Google’s AI&nbsp;&nbsp;WSJ",
+      "summary": "Google's Gemini AI hacked three companies in security test&nbsp;&nbsp;BBC",
       "category": "Models & Research",
       "color": "#4285f4"
     },
@@ -5681,6 +5626,17 @@ const ARTICLES_DATA = {
       "color": "#4285f4"
     },
     {
+      "id": "4d72417bf39f",
+      "title": "Exclusive | Gemini Hacked Three Companies in First Known Breakout by Google’s AI - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWjdUWU9tYzBhcjAwR1AzWkhVczUyUG9SUThfTFNuWEl0VFdHVUFzR1pDb3l3amRZWktfRUtvOFp3a0xZellIODVSTGdJOGd0dnQ2NlNoeVE5OHNEY0swRXJPcDhxSDI5bmJlV29icV91dXYxZGNRdDA2LTV3OTlnQUp6RldkYTJKT1IydVgtTnk5QXRUVkFGdEl3WFp1OVlOMWVaeHpEcw?oc=5",
+      "source": "Gemini News",
+      "source_type": "company",
+      "published": "2026-09-18T07:00:00+00:00",
+      "summary": "Exclusive | Gemini Hacked Three Companies in First Known Breakout by Google’s AI&nbsp;&nbsp;WSJ",
+      "category": "Models & Research",
+      "color": "#4285f4"
+    },
+    {
       "id": "67a46672c1a4",
       "title": "Google says its AI model gained unauthorized access to three outside systems - NBC News",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWkUxYkZTMHVHckpBRjZWSHFGa1J0VnV3VlhxbWpPQ0xmVnVyS0JuVGV0eUZ2THBCRUxWZE5pd0tIMzdleFBLOW9GcWN6MFVnVFFwU1ZrWkNrUno5TVFZM0JCSGI2MFZ2WktfVk1XTmdodGJsV3VJQzJtRTRqekRfZ0dVRVl1S2x5d1ZoYndrMmRkeFY5cm9oSmZmR05qbmptN1dSZl9BOG80c3htVVIxUw?oc=5",
@@ -5688,6 +5644,17 @@ const ARTICLES_DATA = {
       "source_type": "company",
       "published": "2026-09-18T07:00:00+00:00",
       "summary": "Google says its AI model gained unauthorized access to three outside systems&nbsp;&nbsp;NBC News",
+      "category": "Models & Research",
+      "color": "#4285f4"
+    },
+    {
+      "id": "478cf4a333ca",
+      "title": "Google's Gemini becomes latest AI model to break out and hack computer systems - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSE5KMl90SzkycnBlRWtLSVAyYmtzTWxiNDdnUlpvbWx2MGI4TVBaRFFIRDB2X0Nnc3FTOUdUMDRHY2o3aG5EV3dILW1oS0lDYS05dXphNjN0RGxQQXg3QVJfTVdtLW9wV2lqUkVlT3NrZVBZanp6bHRwSkZpT1NsWnZtNEs4MFBKTlA1OE1HUU12NnlfdUtyd3k1RXlJSjRlVmVZb2xXblJCVm1NWVl0ZUdoa23SAboBQVVfeXFMTnp4LUJSVnR6TWs0eG54TU1ZMDNtYVl4OE9MbFVyaTJyVlNUdFpjNWdLN1FZWDVzUGU3Qm1KQ0xpZ0pfeXE1N1FSdFU1UVNTa2QxWnE3dmxLVUg3dE5wUTN3WG5wQ3NsMk1vdzhkT21pWnEzQmEwZDd3dmR1YXgtRzU1bV83TFBLeVBTYTNza0pVQlNlWmRqbTctaDhUZ1ZpR2VFb1dEWXE5THlRbldGLW5kWFJCekV4UGxR?oc=5",
+      "source": "Gemini News",
+      "source_type": "company",
+      "published": "2026-09-18T07:00:00+00:00",
+      "summary": "Google's Gemini becomes latest AI model to break out and hack computer systems&nbsp;&nbsp;CNBC",
       "category": "Models & Research",
       "color": "#4285f4"
     },
@@ -5725,15 +5692,15 @@ const ARTICLES_DATA = {
       "color": "#1a1a1a"
     },
     {
-      "id": "49a4b9f0b565",
-      "title": "DeepSeek's AI Models Are About To Cost Four Times More - Engadget",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT2FId1BnQ0MyY3Rzem9GYVo0blhJUnVqMEpYektCc1F5cy0xS09SODdqOEZrNXZGZE1NVlR6TGFacEw1Uzh6SEtfQzBEU2pfSDRpTW9YRVBoSlJyNElwcmJBOFZmVzIyVHZZS0hhcmJ6cWkzeWlMc2pOQmMwX055Yg?oc=5",
-      "source": "DeepSeek",
+      "id": "f56d3c3fd2b3",
+      "title": "Introducing Shieldstral. - Mistral AI",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzdl9BMnZNN3pna2RmTVVvSlBxVmRHR0tSRWZBQnNtS1VNUjNaUVBscEgxWlpiZndVRHdtVGNlSE0taXRwYjQya192d2U?oc=5",
+      "source": "Mistral AI",
       "source_type": "company",
-      "published": "2026-08-14T07:00:00+00:00",
-      "summary": "DeepSeek's AI Models Are About To Cost Four Times More&nbsp;&nbsp;Engadget",
+      "published": "2026-08-04T07:00:00+00:00",
+      "summary": "Introducing Shieldstral.&nbsp;&nbsp;Mistral AI",
       "category": "Models & Research",
-      "color": "#4f46e5"
+      "color": "#f97316"
     },
     {
       "id": "42a564253b0f",
@@ -5756,17 +5723,6 @@ const ARTICLES_DATA = {
       "summary": "xAI launches Grok 4.3 at an aggressively low price and a new, fast, powerful voice cloning suite&nbsp;&nbsp;VentureBeat",
       "category": "Models & Research",
       "color": "#1a1a1a"
-    },
-    {
-      "id": "98b7ede6f28b",
-      "title": "CAISI Evaluation of DeepSeek V4 Pro - National Institute of Standards and Technology (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbnpMSXhpbnhyUG4yNWwySi01cnhqOTFIRlBCYXdNNnZrdXlhV2NXSXdkTWh5RklwaEljNmtqZ1p2YmMzb2Z1Ymt2TFhSN0s5UXk4MGdwOXFfQ0tnekttMEJCVmJsSGNvXzRLSW9BTUdyOE1yOVhvQ3RNZWJ1Ni1YMFNvSmc?oc=5",
-      "source": "DeepSeek",
-      "source_type": "company",
-      "published": "2026-05-01T07:00:00+00:00",
-      "summary": "CAISI Evaluation of DeepSeek V4 Pro&nbsp;&nbsp;National Institute of Standards and Technology (.gov)",
-      "category": "Models & Research",
-      "color": "#4f46e5"
     },
     {
       "id": "ee0b6f7818fb",
@@ -5813,17 +5769,6 @@ const ARTICLES_DATA = {
       "color": "#1a1a1a"
     },
     {
-      "id": "eb2ba61d928c",
-      "title": "xAI’s Grok 4 Fast delivers top-tier AI performance at a fraction of the cost - TechTalks",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xTGhpeTU0QTVHb1J0enJDNi0wWUN6TEVxQmZNSFhJRWctN0lmam1LRWlRSTNKSjhBLXNuTUZ2NVFnTjRTZTJNRVRfMlN5YUVJTUFhRW9vZUtCNHZLTndIZdIBZkFVX3lxTE9ZcXlXOEZDZ3Z4RFIzMXlBX2FLNF9sLUwyMU5XWVJHTEkxLVJuRDUwV0RVR3YxNU1zWmEwTGNCTU9zRHZESDB5X2hPYWZBUGxFZzl3WjVmODBjTDNjTXRyNFpZdm5fQQ?oc=5",
-      "source": "xAI / Grok",
-      "source_type": "company",
-      "published": "2025-09-22T07:00:00+00:00",
-      "summary": "xAI’s Grok 4 Fast delivers top-tier AI performance at a fraction of the cost&nbsp;&nbsp;TechTalks",
-      "category": "Models & Research",
-      "color": "#1a1a1a"
-    },
-    {
       "id": "b92bcdec121b",
       "title": "xAI debuts a faster and more cost-effective version of Grok 4 - Engadget",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNGczbzBlcklYSkNuVDNNdjdHX2dTcW1pR0NIWGZVLTdvNUJrQXMyNkRkT2ZnNTNLaU1aX2FwbXk4ZVpibmV0OHlObWgySk9pNHlWc05DdXdvWV9OMnB3dGVrSHJYTVdrTmF4UGt3cy0wUnpOOXZZcW4xQmJYT1hJUFAxNmk5aG14YlQ4a1hMSXU5SlY0Ym91TXo1bENlWDhsUVd2RTloWQ?oc=5",
@@ -5831,6 +5776,17 @@ const ARTICLES_DATA = {
       "source_type": "company",
       "published": "2025-09-20T07:00:00+00:00",
       "summary": "xAI debuts a faster and more cost-effective version of Grok 4&nbsp;&nbsp;Engadget",
+      "category": "Models & Research",
+      "color": "#1a1a1a"
+    },
+    {
+      "id": "382cfc09b79d",
+      "title": "No, Grok 2.5 has not been open-sourced. Here’s how you can tell - ZDNET",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcUhtLWRiV1FBTXB4SzEyelF5VEhraTkxSExSSmIyZkkySGtNMEZNVml0bi1hYjhhOU5PMnU5cGlVYWZoWjB2Z0JrMmxDdGJyTlU1aS1nRnFBeXg4Uzg1cHBsNHlKaS1qQThkRThfOHJORnV5ZkczTmdCX1gzeEpuNmF4cTlMekZBZG5Ic1RLTWZFd1ZZdGc?oc=5",
+      "source": "xAI / Grok",
+      "source_type": "company",
+      "published": "2025-08-26T07:00:00+00:00",
+      "summary": "No, Grok 2.5 has not been open-sourced. Here’s how you can tell&nbsp;&nbsp;ZDNET",
       "category": "Models & Research",
       "color": "#1a1a1a"
     },
